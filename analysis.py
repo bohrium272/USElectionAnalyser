@@ -1,7 +1,7 @@
 import tweepy
 from os import environ
 import json
-
+import pandas
 
 class TweetFetcher(tweepy.StreamListener):
 
@@ -12,6 +12,7 @@ class TweetFetcher(tweepy.StreamListener):
     def on_data(self, data):
         self.push_to_db(self.collection, data)
         self.count += 1
+        print self.count
         if self.count == 15000:
             return False
         return True
@@ -30,3 +31,8 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
     stream = tweepy.Stream(auth, tweet_stream)
 
     stream.filter(track=['USElections'])
+
+def create_data_frame(collection):
+    tweets_db = collection.find()
+    tweets = pandas.DataFrame()
+    tweets['text'] = map(lambda tweet: tweet['text'], tweets_db)
