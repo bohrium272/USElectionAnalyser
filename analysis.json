@@ -1,0 +1,484 @@
+{
+    "created_at": "Sat Oct 29 06:11:09 +0000 2016",
+    "id": 792247380540329984,
+    "id_str": "792247380540329984",
+    "text": "Weiner got Clinton in trouble again. https:\/\/t.co\/ez6jRkQygb #USElections",
+    "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 35143687,
+        "id_str": "35143687",
+        "name": "Jaakko Joki",
+        "screen_name": "jjoki",
+        "location": "Finland",
+        "url": "http:\/\/about.me\/jjoki",
+        "description": "Historian, teacher, writer. Reads a lot. Politics as passion. News addict. Nature, jazz, OpenSource, startup, documentary, radio and tea lover",
+        "protected": false,
+        "verified": false,
+        "followers_count": 1017,
+        "friends_count": 2681,
+        "listed_count": 55,
+        "favourites_count": 1,
+        "statuses_count": 12902,
+        "created_at": "Sat Apr 25 04:19:01 +0000 2009",
+        "utc_offset": 10800,
+        "time_zone": "Helsinki",
+        "geo_enabled": false,
+        "lang": "fi",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "F3EBE0",
+        "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/244309951\/x002d25370c20a15c20d85d4dc51b057.jpg",
+        "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/244309951\/x002d25370c20a15c20d85d4dc51b057.jpg",
+        "profile_background_tile": false,
+        "profile_link_color": "E1670F",
+        "profile_sidebar_border_color": "49A69C",
+        "profile_sidebar_fill_color": "D3CC95",
+        "profile_text_color": "3C3C3C",
+        "profile_use_background_image": true,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/522264449399275520\/H0XPW3Ln_normal.jpeg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/522264449399275520\/H0XPW3Ln_normal.jpeg",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "USElections",
+            "indices": [61, 73]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/ez6jRkQygb",
+            "expanded_url": "http:\/\/wapo.st\/2eOcZl9",
+            "display_url": "wapo.st\/2eOcZl9",
+            "indices": [37, 60]
+        }],
+        "user_mentions": [],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1477721469422"
+}
+
+{
+    "created_at": "Sat Oct 29 06:15:57 +0000 2016",
+    "id": 792248586750787584,
+    "id_str": "792248586750787584",
+    "text": "RT @CFB_MarketPulse: Who will win the US Elections 2016 #USElections @realDonaldTrump @HillaryClinton #Democrats #Republicans #USA #Restoft\u2026",
+    "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1511098993,
+        "id_str": "1511098993",
+        "name": "Lisa Joe",
+        "screen_name": "lisajoe104",
+        "location": "South Africa",
+        "url": "http:\/\/www.twitter.com",
+        "description": "God\ud83d\ude4f\nEducation \ud83d\udcda \nTravel \ud83d\udeeb\ud83c\udf0f\ud83c\udf0d\nAdventure \ud83d\udd74\ud83d\udc83\ud83d\udc83\ud83c\udf0e\nModelling \u2764\nLove \u2764",
+        "protected": false,
+        "verified": false,
+        "followers_count": 315,
+        "friends_count": 787,
+        "listed_count": 1,
+        "favourites_count": 2689,
+        "statuses_count": 1545,
+        "created_at": "Wed Jun 12 17:11:09 +0000 2013",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/792248243417735168\/uy7GrWAn_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/792248243417735168\/uy7GrWAn_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1511098993\/1466536377",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Thu Oct 27 07:35:55 +0000 2016",
+        "id": 791543936846364672,
+        "id_str": "791543936846364672",
+        "text": "Who will win the US Elections 2016 #USElections @realDonaldTrump @HillaryClinton #Democrats #Republicans #USA #Restoftheworld @gulf_news",
+        "source": "\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2549473002,
+            "id_str": "2549473002",
+            "name": "Century Financial",
+            "screen_name": "CFB_MarketPulse",
+            "location": "Dubai, United Arab Emirates",
+            "url": "http:\/\/www.centurybroker.com",
+            "description": "Century Financial Brokers is the region\u2019s leader in providing pioneering services in investment & online trading in international financial markets, since 1989",
+            "protected": false,
+            "verified": false,
+            "followers_count": 16168,
+            "friends_count": 158,
+            "listed_count": 25,
+            "favourites_count": 50,
+            "statuses_count": 11967,
+            "created_at": "Fri Jun 06 07:47:53 +0000 2014",
+            "utc_offset": 14400,
+            "time_zone": "Muscat",
+            "geo_enabled": true,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+            "profile_background_tile": false,
+            "profile_link_color": "B05007",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/475570950910377987\/PHzEFP5q_normal.jpeg",
+            "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/475570950910377987\/PHzEFP5q_normal.jpeg",
+            "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2549473002\/1402219660",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": {
+            "id": "001907e868d06e24",
+            "url": "https:\/\/api.twitter.com\/1.1\/geo\/id\/001907e868d06e24.json",
+            "place_type": "admin",
+            "name": "Dubai",
+            "full_name": "Dubai, United Arab Emirates",
+            "country_code": "AE",
+            "country": "United Arab Emirates",
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [54.893973, 24.618253],
+                        [54.893973, 25.368672],
+                        [56.208372, 25.368672],
+                        [56.208372, 24.618253]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 4,
+        "entities": {
+            "hashtags": [{
+                "text": "USElections",
+                "indices": [35, 47]
+            }, {
+                "text": "Democrats",
+                "indices": [81, 91]
+            }, {
+                "text": "Republicans",
+                "indices": [92, 104]
+            }, {
+                "text": "USA",
+                "indices": [105, 109]
+            }, {
+                "text": "Restoftheworld",
+                "indices": [110, 125]
+            }],
+            "urls": [],
+            "user_mentions": [{
+                "screen_name": "realDonaldTrump",
+                "name": "Donald J. Trump",
+                "id": 25073877,
+                "id_str": "25073877",
+                "indices": [48, 64]
+            }, {
+                "screen_name": "HillaryClinton",
+                "name": "Hillary Clinton",
+                "id": 1339835893,
+                "id_str": "1339835893",
+                "indices": [65, 80]
+            }, {
+                "screen_name": "gulf_news",
+                "name": "Gulf News",
+                "id": 20578408,
+                "id_str": "20578408",
+                "indices": [126, 136]
+            }],
+            "symbols": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "USElections",
+            "indices": [56, 68]
+        }, {
+            "text": "Democrats",
+            "indices": [102, 112]
+        }, {
+            "text": "Republicans",
+            "indices": [113, 125]
+        }, {
+            "text": "USA",
+            "indices": [126, 130]
+        }],
+        "urls": [],
+        "user_mentions": [{
+            "screen_name": "CFB_MarketPulse",
+            "name": "Century Financial",
+            "id": 2549473002,
+            "id_str": "2549473002",
+            "indices": [3, 19]
+        }, {
+            "screen_name": "realDonaldTrump",
+            "name": "Donald J. Trump",
+            "id": 25073877,
+            "id_str": "25073877",
+            "indices": [69, 85]
+        }, {
+            "screen_name": "HillaryClinton",
+            "name": "Hillary Clinton",
+            "id": 1339835893,
+            "id_str": "1339835893",
+            "indices": [86, 101]
+        }],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1477721757005"
+}
+
+{
+    "created_at": "Sat Oct 29 06:15:57 +0000 2016",
+    "id": 792248586847326208,
+    "id_str": "792248586847326208",
+    "text": "Our #USElections update - #Trump closing gap on #Clinton in 9 key states, but still has much to do\u2026 https:\/\/t.co\/x9lmpXB8a9",
+    "display_text_range": [0, 140],
+    "source": "\u003ca href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 721236049427623936,
+        "id_str": "721236049427623936",
+        "name": "EA WorldView",
+        "screen_name": "EA_WorldView",
+        "location": null,
+        "url": "http:\/\/eaworldview.com\/",
+        "description": "A digital publication focusing on international affairs, especially those in #Syria, #Iran, and the wider #MiddleEast",
+        "protected": false,
+        "verified": false,
+        "followers_count": 1666,
+        "friends_count": 963,
+        "listed_count": 57,
+        "favourites_count": 3029,
+        "statuses_count": 8162,
+        "created_at": "Sat Apr 16 07:17:28 +0000 2016",
+        "utc_offset": 3600,
+        "time_zone": "Dublin",
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+        "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+        "profile_background_tile": false,
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "5ED4DC",
+        "profile_sidebar_fill_color": "95E8EC",
+        "profile_text_color": "3C3940",
+        "profile_use_background_image": true,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/721236506363473920\/Dl6ljv_b_normal.jpg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/721236506363473920\/Dl6ljv_b_normal.jpg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/721236049427623936\/1471600996",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+        "full_text": "Our #USElections update - #Trump closing gap on #Clinton in 9 key states, but still has much to do https:\/\/t.co\/rdbaXpWfuW https:\/\/t.co\/k9z9dH7tvQ",
+        "display_text_range": [0, 122],
+        "entities": {
+            "hashtags": [{
+                "text": "USElections",
+                "indices": [4, 16]
+            }, {
+                "text": "Trump",
+                "indices": [26, 32]
+            }, {
+                "text": "Clinton",
+                "indices": [48, 56]
+            }],
+            "urls": [{
+                "url": "https:\/\/t.co\/rdbaXpWfuW",
+                "expanded_url": "http:\/\/eaworldview.com\/2016\/10\/us-analysis-essential-guide-presidential-election\/",
+                "display_url": "eaworldview.com\/2016\/10\/us-ana\u2026",
+                "indices": [99, 122]
+            }],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [{
+                "id": 792248576575504384,
+                "id_str": "792248576575504384",
+                "indices": [123, 146],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/Cv6h4gSXgAAxRpH.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/Cv6h4gSXgAAxRpH.jpg",
+                "url": "https:\/\/t.co\/k9z9dH7tvQ",
+                "display_url": "pic.twitter.com\/k9z9dH7tvQ",
+                "expanded_url": "https:\/\/twitter.com\/EA_WorldView\/status\/792248586847326208\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 810,
+                        "h": 455,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 810,
+                        "h": 455,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 382,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 792248576575504384,
+                "id_str": "792248576575504384",
+                "indices": [123, 146],
+                "media_url": "http:\/\/pbs.twimg.com\/media\/Cv6h4gSXgAAxRpH.jpg",
+                "media_url_https": "https:\/\/pbs.twimg.com\/media\/Cv6h4gSXgAAxRpH.jpg",
+                "url": "https:\/\/t.co\/k9z9dH7tvQ",
+                "display_url": "pic.twitter.com\/k9z9dH7tvQ",
+                "expanded_url": "https:\/\/twitter.com\/EA_WorldView\/status\/792248586847326208\/photo\/1",
+                "type": "photo",
+                "sizes": {
+                    "large": {
+                        "w": 810,
+                        "h": 455,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 810,
+                        "h": 455,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 382,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        }
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "USElections",
+            "indices": [4, 16]
+        }, {
+            "text": "Trump",
+            "indices": [26, 32]
+        }, {
+            "text": "Clinton",
+            "indices": [48, 56]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/x9lmpXB8a9",
+            "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/792248586847326208",
+            "display_url": "twitter.com\/i\/web\/status\/7\u2026",
+            "indices": [100, 123]
+        }],
+        "user_mentions": [],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1477721757028"
+}
