@@ -12,13 +12,13 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
     i = 0
     while True:
         try:
-            for tweet in tweet_stream.statuses.filter(track='USElections'):
+            for tweet in tweet_stream.statuses.filter(track=['USElections', 'USelections', '#USElections', '#USelections']):
                 if not tweet or tweet.get("timeout"):
-                        continue
+                    continue
                 if tweet.get("disconnect") or tweet.get("hangup"):
                     print("WARNING Stream connection lost: %s" % msg)
                     break
-                if i == 12000:
+                if i == 9400:
                     break
                 if tweet.get('text'):
                     collection.insert_one(tweet)
@@ -28,7 +28,7 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
         except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
             print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
             time.sleep(1)
-        if i == 12000:
+        if i == 9400:
             break
     print "Fetch Finished"
 

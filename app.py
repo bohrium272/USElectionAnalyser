@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from os import environ
 from pymongo import MongoClient
 import analysis
@@ -13,6 +13,10 @@ app = Flask(__name__)
 client = MongoClient(MONGODB_URI)
 db = client.get_default_database()
 tweets = db.tweets
+
+@app.route('/', methods=['GET'])
+def home():
+    return render_template('index.html')
 
 @app.route('/fetch_tweets', methods=['GET'])
 def fetch_tweets():
