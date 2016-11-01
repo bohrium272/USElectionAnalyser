@@ -1,4 +1,4 @@
-from twitter import TwitterStream, OAuth, TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error
+from twitter import *
 from os import environ
 import json
 import pandas
@@ -26,7 +26,7 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
                     if i % 1000 == 0:
                         print "Completed " + str(i) + " iterations"
         except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
-            print "WARNING: Stream connection lost, reconnecting in a sec... (%s: %s)" % (type(e), e):
+            print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
             time.sleep(1)
         if i == 12000:
             break
