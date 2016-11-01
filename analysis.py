@@ -3,13 +3,12 @@ from os import environ
 import json
 import pandas
 import time
-
-tweets = []
     
 def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
     print "Inside fetch_tweets"
     tweet_stream = TwitterStream(auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET))
     print "Constructed Stream"
+    global i
     i = 0
     while True:
         try:
@@ -26,9 +25,11 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
                     i += 1
                     if i % 1000 == 0:
                         print "Completed " + str(i) + " iterations"
-         except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
+        except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
             print "WARNING: Stream connection lost, reconnecting in a sec... (%s: %s)" % (type(e), e):
             time.sleep(1)
+        if i == 12000:
+            break
     print "Fetch Finished"
 
 def create_data_frame(collection):
