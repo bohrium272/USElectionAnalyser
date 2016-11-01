@@ -16,7 +16,7 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
         if i == 1:
             break
         print json.dumps(tweet)
-        collection.insert_one(json.dumps(tweet))
+        collection.insert_one(tweet)
         i += 1 
     print "Iteration Finished"
 
