@@ -1,0 +1,98 @@
+{
+    "created_at": "Sun Oct 30 18:35:07 +0000 2016",
+    "id": 792796993269669888,
+    "id_str": "792796993269669888",
+    "text": "#US unprepared for #Election Day #cyberattack via @politico \nhttps:\/\/t.co\/1sCL6eYaGv\n#cybersecurity #USElections",
+    "source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 4873477696,
+        "id_str": "4873477696",
+        "name": "Flint Capital",
+        "screen_name": "FlintVC",
+        "location": "US, Israel, and Europe",
+        "url": "http:\/\/flintcap.com\/",
+        "description": "Focusing on Mobile, SaaS, Advertisement, Financial\/EdTech, Security and Enterprise sectors.",
+        "protected": false,
+        "verified": false,
+        "followers_count": 239,
+        "friends_count": 395,
+        "listed_count": 258,
+        "favourites_count": 170,
+        "statuses_count": 916,
+        "created_at": "Wed Feb 03 07:23:21 +0000 2016",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/694786290827530240\/f2xxOktD.jpg",
+        "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/694786290827530240\/f2xxOktD.jpg",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/694783953685843969\/eD_wwhuZ_normal.png",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/694783953685843969\/eD_wwhuZ_normal.png",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/4873477696\/1456764517",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [{
+            "text": "US",
+            "indices": [0, 3]
+        }, {
+            "text": "Election",
+            "indices": [19, 28]
+        }, {
+            "text": "cyberattack",
+            "indices": [33, 45]
+        }, {
+            "text": "cybersecurity",
+            "indices": [85, 99]
+        }, {
+            "text": "USElections",
+            "indices": [100, 112]
+        }],
+        "urls": [{
+            "url": "https:\/\/t.co\/1sCL6eYaGv",
+            "expanded_url": "http:\/\/ow.ly\/ExpT305Fw3S",
+            "display_url": "ow.ly\/ExpT305Fw3S",
+            "indices": [61, 84]
+        }],
+        "user_mentions": [{
+            "screen_name": "politico",
+            "name": "POLITICO",
+            "id": 9300262,
+            "id_str": "9300262",
+            "indices": [50, 59]
+        }],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1477852507308"
+}

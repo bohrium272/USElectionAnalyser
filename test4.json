@@ -1,0 +1,264 @@
+{
+    "favorited": false,
+    "contributors": null,
+    "truncated": false,
+    "text": "RT @IntheNow_tweet: Hillary shouts equal pay but pays women less at Clinton Foundation\n\n@AnissaNow #USelections #HillaryClinton https://t.c\u2026",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "user": {
+        "follow_request_sent": null,
+        "profile_use_background_image": true,
+        "default_profile_image": false,
+        "id": 1947614958,
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/783606314085658625/6Lf4VVAj_normal.jpg",
+        "profile_sidebar_fill_color": "E3E2DE",
+        "profile_text_color": "634047",
+        "followers_count": 198,
+        "profile_sidebar_border_color": "000000",
+        "id_str": "1947614958",
+        "profile_background_color": "352726",
+        "listed_count": 3,
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/448414677840560128/BsFjYGE_.jpeg",
+        "utc_offset": 28800,
+        "statuses_count": 8269,
+        "description": "Part-time Barista, full-time law student. Read what you retweet. Love, @NabilaSahar",
+        "friends_count": 212,
+        "location": "TTDI - Ken Rimba",
+        "profile_link_color": "F05C0C",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/783606314085658625/6Lf4VVAj_normal.jpg",
+        "following": null,
+        "geo_enabled": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1947614958/1451142084",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/448414677840560128/BsFjYGE_.jpeg",
+        "name": "Dann.",
+        "lang": "en",
+        "profile_background_tile": false,
+        "favourites_count": 362,
+        "screen_name": "DanielTaqiudin",
+        "notifications": null,
+        "url": null,
+        "created_at": "Tue Oct 08 18:32:40 +0000 2013",
+        "contributors_enabled": false,
+        "time_zone": "Kuala Lumpur",
+        "protected": false,
+        "default_profile": false,
+        "is_translator": false
+    },
+    "filter_level": "low",
+    "geo": null,
+    "id": 793328413557665792,
+    "favorite_count": 0,
+    "lang": "en",
+    "retweeted_status": {
+        "contributors": null,
+        "truncated": false,
+        "text": "Hillary shouts equal pay but pays women less at Clinton Foundation\n\n@AnissaNow #USelections #HillaryClinton https://t.co/qqoE4EUM7Z",
+        "is_quote_status": false,
+        "in_reply_to_status_id": null,
+        "id": 791756146352750592,
+        "favorite_count": 344,
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+        "retweeted": false,
+        "coordinates": null,
+        "entities": {
+            "user_mentions": [{
+                "id": 269794637,
+                "indices": [68, 78],
+                "id_str": "269794637",
+                "screen_name": "AnissaNow",
+                "name": "Anissa Naouai"
+            }],
+            "symbols": [],
+            "hashtags": [{
+                "indices": [79, 91],
+                "text": "USelections"
+            }, {
+                "indices": [92, 107],
+                "text": "HillaryClinton"
+            }],
+            "urls": [],
+            "media": [{
+                "expanded_url": "https://twitter.com/IntheNow_tweet/status/791756146352750592/video/1",
+                "display_url": "pic.twitter.com/qqoE4EUM7Z",
+                "url": "https://t.co/qqoE4EUM7Z",
+                "media_url_https": "https://pbs.twimg.com/media/CvzW4gKUMAAnu-a.jpg",
+                "id_str": "791742871363805184",
+                "sizes": {
+                    "small": {
+                        "h": 383,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 1280
+                    },
+                    "medium": {
+                        "h": 675,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [108, 131],
+                "type": "photo",
+                "id": 791742871363805184,
+                "media_url": "http://pbs.twimg.com/media/CvzW4gKUMAAnu-a.jpg"
+            }]
+        },
+        "in_reply_to_screen_name": null,
+        "id_str": "791756146352750592",
+        "display_text_range": [0, 107],
+        "retweet_count": 396,
+        "in_reply_to_user_id": null,
+        "favorited": false,
+        "user": {
+            "follow_request_sent": null,
+            "profile_use_background_image": true,
+            "default_profile_image": false,
+            "id": 2313894266,
+            "verified": true,
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/702147635453497344/gz5Yl9Ls_normal.png",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "followers_count": 33140,
+            "profile_sidebar_border_color": "A8C7F7",
+            "id_str": "2313894266",
+            "profile_background_color": "022330",
+            "listed_count": 568,
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "utc_offset": 10800,
+            "statuses_count": 2470,
+            "description": "News served hot with a side of smile. Straight up and right now.\nAdd inthenow_snaps for more",
+            "friends_count": 133,
+            "location": null,
+            "profile_link_color": "0084B4",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/702147635453497344/gz5Yl9Ls_normal.png",
+            "following": null,
+            "geo_enabled": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2313894266/1472501524",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "name": "IN THE NOW",
+            "lang": "en",
+            "profile_background_tile": false,
+            "favourites_count": 145,
+            "screen_name": "IntheNow_tweet",
+            "notifications": null,
+            "url": "https://www.facebook.com/inthenow/",
+            "created_at": "Mon Jan 27 16:06:27 +0000 2014",
+            "contributors_enabled": false,
+            "time_zone": "Volgograd",
+            "protected": false,
+            "default_profile": false,
+            "is_translator": false
+        },
+        "geo": null,
+        "in_reply_to_user_id_str": null,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "created_at": "Thu Oct 27 21:39:10 +0000 2016",
+        "filter_level": "low",
+        "in_reply_to_status_id_str": null,
+        "place": null,
+        "extended_entities": {
+            "media": [{
+                "expanded_url": "https://twitter.com/IntheNow_tweet/status/791756146352750592/video/1",
+                "display_url": "pic.twitter.com/qqoE4EUM7Z",
+                "url": "https://t.co/qqoE4EUM7Z",
+                "media_url_https": "https://pbs.twimg.com/media/CvzW4gKUMAAnu-a.jpg",
+                "video_info": {
+                    "aspect_ratio": [16, 9],
+                    "duration_millis": 72960,
+                    "variants": [{
+                        "url": "https://video.twimg.com/amplify_video/791742871363805184/pl/dBwzsXFhgrbpTvO3.mpd",
+                        "content_type": "application/dash+xml"
+                    }, {
+                        "url": "https://video.twimg.com/amplify_video/791742871363805184/pl/dBwzsXFhgrbpTvO3.m3u8",
+                        "content_type": "application/x-mpegURL"
+                    }, {
+                        "url": "https://video.twimg.com/amplify_video/791742871363805184/vid/320x180/9eTrxrqmj4evqeLW.mp4",
+                        "bitrate": 320000,
+                        "content_type": "video/mp4"
+                    }, {
+                        "url": "https://video.twimg.com/amplify_video/791742871363805184/vid/1280x720/HllH5BySYOQKZnSn.mp4",
+                        "bitrate": 2176000,
+                        "content_type": "video/mp4"
+                    }, {
+                        "url": "https://video.twimg.com/amplify_video/791742871363805184/vid/640x360/602q-Q91xApC9dap.mp4",
+                        "bitrate": 832000,
+                        "content_type": "video/mp4"
+                    }]
+                },
+                "id_str": "791742871363805184",
+                "sizes": {
+                    "small": {
+                        "h": 383,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 1280
+                    },
+                    "medium": {
+                        "h": 675,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "indices": [108, 131],
+                "type": "video",
+                "id": 791742871363805184,
+                "media_url": "http://pbs.twimg.com/media/CvzW4gKUMAAnu-a.jpg"
+            }]
+        }
+    },
+    "entities": {
+        "user_mentions": [{
+            "id": 2313894266,
+            "indices": [3, 18],
+            "id_str": "2313894266",
+            "screen_name": "IntheNow_tweet",
+            "name": "IN THE NOW"
+        }, {
+            "id": 269794637,
+            "indices": [88, 98],
+            "id_str": "269794637",
+            "screen_name": "AnissaNow",
+            "name": "Anissa Naouai"
+        }],
+        "symbols": [],
+        "hashtags": [{
+            "indices": [99, 111],
+            "text": "USelections"
+        }, {
+            "indices": [112, 127],
+            "text": "HillaryClinton"
+        }],
+        "urls": []
+    },
+    "in_reply_to_user_id_str": null,
+    "retweeted": false,
+    "coordinates": null,
+    "timestamp_ms": "1477979207778",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_screen_name": null,
+    "id_str": "793328413557665792",
+    "place": null,
+    "retweet_count": 0,
+    "created_at": "Tue Nov 01 05:46:47 +0000 2016",
+    "in_reply_to_user_id": null
+}

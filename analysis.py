@@ -1,36 +1,24 @@
-import tweepy
+from twitter import TwitterStream, OAuth
 from os import environ
 import json
 import pandas
 
-class TweetFetcher(tweepy.StreamListener):
-
-    def __init__(self, collection):
-        self.collection = collection
-        self.count = 0
-
-    def on_data(self, data):
-        self.push_to_db(self.collection, data)
-        self.count += 1
-        print self.count
-        if self.count == 15000:
-            return False
-        return True
-    
-    def push_to_db(self, collection, data):
-        tweet = json.loads(data)
-        collection.insert_one(tweet)
-
-    def on_error(self, status):
-        print status
+tweets = []
     
 def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
-    tweet_stream = TweetFetcher(collection)
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_KEY_SECRET)
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-    stream = tweepy.Stream(auth, tweet_stream)
-
-    stream.filter(track=['USElections'])
+    print "Inside fetch_tweets"
+    tweet_stream = TwitterStream(auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET))
+    print "Constructed Stream"
+    iterator = tweet_stream.statuses.filter(track='USElections')
+    print "Iterator Obtained"
+    i = 0
+    for tweet in iterator:
+        if i == 1:
+            break
+        print json.dumps(tweet)
+        collection.insert_one(json.dumps(tweet))
+        i += 1 
+    print "Iteration Finished"
 
 def create_data_frame(collection):
     tweets_db = collection.find()
