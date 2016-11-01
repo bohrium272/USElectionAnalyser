@@ -12,7 +12,7 @@ def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CO
     i = 0
     while True:
         try:
-            for tweet in tweet_stream.statuses.filter(track=['USElections', 'USelections', '#USElections', '#USelections']):
+            for tweet in tweet_stream.statuses.filter(track='USelections'):
                 if not tweet or tweet.get("timeout"):
                     continue
                 if tweet.get("disconnect") or tweet.get("hangup"):
