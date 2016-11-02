@@ -18,11 +18,5 @@ tweets = db.tweets
 def home():
     return render_template('index.html')
 
-@app.route('/fetch_tweets', methods=['GET'])
-def fetch_tweets():
-    return ""
-
-
 if __name__ == '__main__':
-    print "Now Fetching Tweets"
-    analysis.fetch_tweets(tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)
+    app.run(debug=True)
