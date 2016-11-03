@@ -1,38 +1,22 @@
-from twitter import *
-from os import environ
-import json
-import pandas
-import time
-    
-def fetch_tweets(collection, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
-    print "Inside fetch_tweets"
-    tweet_stream = TwitterStream(auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET))
-    print "Constructed Stream"
-    global i
-    i = 0
-    while True:
-        try:
-            for tweet in tweet_stream.statuses.filter(track='USelections'):
-                if not tweet or tweet.get("timeout"):
-                    continue
-                if tweet.get("disconnect") or tweet.get("hangup"):
-                    print("WARNING Stream connection lost: %s" % msg)
-                    break
-                if i == 9400:
-                    break
-                if tweet.get('text'):
-                    collection.insert_one(tweet)
-                    i += 1
-                    if i % 1000 == 0:
-                        print "Completed " + str(i) + " iterations"
-        except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
-            print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
-            time.sleep(1)
-        if i == 9400:
-            break
-    print "Fetch Finished"
+from fetch import *
+from pymongo import MongoClient
+from collections import Counter
 
-def create_data_frame(collection):
-    tweets_db = collection.find()
-    tweets = pandas.DataFrame()
-    tweets['text'] = map(lambda tweet: tweet['text'], tweets_db)
+# MONGODB_URI = environ.get('MONGODB_URI')
+# client = MongoClient(MONGODB_URI)
+# db = client.get_default_database()
+# tweets_collection = db.tweets
+# tweets = fetch_tweets_from_db(tweets_collection)
+tweets = fetch_tweets_from_json()
+tweets_df = make_dataframe(tweets)
+
+def top_10_hastags():
+    hashtags = tweets_df['Hashtags']
+    all_hashtags = list()
+    for tags in hashtags:
+        all_hashtags.extend(tags)
+    return [e for e, c in Counter(all_hashtags).most_common(10)]
+
+def get_locations():
+    places = tweets_df['Places']
+    return places
