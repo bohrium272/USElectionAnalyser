@@ -52,9 +52,23 @@ def dist_original_vs_retweet():
     return dict(Counter(type))
 
 def dist_original_tweets():
-    
+    clinton_original_count = 0
+    trump_original_count = 0
+    others_original_count = 0
+    temp_df = tweets_df[['Handle', 'Favorite Count', 'Type']]
+    for i in xrange(temp_df.shape[0]):
+        temp = dict(temp_df.iloc[i])
+        if temp['Type'] == 'original':
+            if temp['Handle'] == 'realDonaldTrump':
+                trump_original_count += 1
+            elif temp['Handle'] == 'HillaryClinton':
+                clinton_original_count += 1
+            else: 
+                others_original_count += 1
+    return {'Hillary': clinton_original_count, 'Trump': trump_original_count, 'Others': others_original_count}
 
 # print get_locations()
-# print popularity()
+# # print popularity()
 # print top_10_hashtags()
-print dist_original_vs_retweet()
+# print dist_original_tweets()
+# print dist_original_vs_retweet()

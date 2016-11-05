@@ -1,10 +1,14 @@
-from twitter import *
-from os import environ
-import json
-import pandas as pd
-import time
 import ast
+import json
+import time
+from os import environ
+from random import randint
+
+import pandas as pd
 from pymongo import MongoClient
+from numpy.random import randint
+from twitter import *
+
 
 # ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
 # ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
@@ -82,9 +86,12 @@ def temp4(e):
     else:
         return 'original'
 
+
 def df_from_csv():
     df = pd.DataFrame().from_csv('tweets.csv')
     new_df = pd.DataFrame()
+    new_df['Handle'] = df['handle']
+    new_df['Name'] = df['handle'].apply(lambda e: 'Hillary Clinton' if e == 'HillaryClinton' else 'Donald J. Trump')
     new_df['Text'] = df['text']
     new_df['Country'] = df['place_country']
     entities = list(df['entities'])
@@ -92,8 +99,8 @@ def df_from_csv():
     new_df['User Mentions'] = map(temp3, entities)
     new_df['Hashtags'] = map(temp2, entities)
     new_df['Type'] = df.apply(temp4, axis=1)
-    new_df['Retweeted Count'] = 100
-    new_df['Favorite Count'] = 100
+    new_df['Retweeted Count'] = randint(100, 10000, df.shape[0])
+    new_df['Favorite Count'] = randint(100, 10000, df.shape[0])
     return new_df
 
 
