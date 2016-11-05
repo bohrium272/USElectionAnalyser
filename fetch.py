@@ -3,6 +3,7 @@ from os import environ
 import json
 import pandas as pd
 import time
+import ast
 from pymongo import MongoClient
 
 # ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
@@ -59,6 +60,43 @@ def fetch_tweets_from_json():
     f = open('analysis.json')
     return json.loads(f.read())
 
+def temp(e):
+    return ast.literal_eval(json.loads(json.dumps(e)))
+
+def temp2(e):
+    all_hashtags = []
+    for tag in e['hashtags']:    
+        if 'text' in tag:
+            all_hashtags.append(tag['text']) 
+    return all_hashtags
+
+def temp3(e):
+    if 'name' in e['user_mentions']:
+        return e['user_mentions']['name'] 
+    else:
+        return None
+
+def temp4(e):
+    if e['is_retweet']:
+        return 'retweeted'
+    else:
+        return 'original'
+
+def df_from_csv():
+    df = pd.DataFrame().from_csv('tweets.csv')
+    new_df = pd.DataFrame()
+    new_df['Text'] = df['text']
+    new_df['Country'] = df['place_country']
+    entities = list(df['entities'])
+    entities = map(temp, entities)
+    new_df['User Mentions'] = map(temp3, entities)
+    new_df['Hashtags'] = map(temp2, entities)
+    new_df['Type'] = df.apply(temp4, axis=1)
+    new_df['Retweeted Count'] = 100
+    new_df['Favorite Count'] = 100
+    return new_df
+
+
 def get_hashtags_from_tweet(tweet):
     """
     Get Hashtags from a Tweet
@@ -70,17 +108,32 @@ def get_hashtags_from_tweet(tweet):
         return tags
     else:
         return None
+
+def get_user_mentions_from_tweet(tweet):
+    """
+    Get User Mentions from a Tweet
+    """
+    if 'user_mentions' in tweet['entities']:
+        mentions = []
+        for user in tweet['entities']['user_mentions']:
+            mentions.append(user['name'])
+        return mentions
+    else:
+        return None
 def make_dataframe(tweets):
     """
     Convert the Tweets from JSON Structure to a Panda's DataFrame
     """
     tweets_df = pd.DataFrame()
+    tweets_df['Handle'] = map(lambda tweet: tweet['user']['screen_name'], tweets)
+    tweets_df['Name'] = map(lambda tweet: tweet['user']['name'], tweets)
     tweets_df['Text'] = map(lambda tweet: tweet['text'], tweets)
-    tweets_df['Place'] = map(lambda tweet: tweet['place']['full_name'] if tweet['place'] != None else None, tweets)
+    tweets_df['Country'] = map(lambda tweet: tweet['place']['country'] if tweet['place'] != None else None, tweets)
     tweets_df['Hashtags'] = map(get_hashtags_from_tweet, tweets)
     tweets_df['Type'] = map(lambda tweet: 'retweeted' if 'retweeted_status' in tweet else 'original', tweets)
     tweets_df['Retweeted Count'] = map(lambda tweet: tweet['retweet_count'], tweets)
     tweets_df['Favorite Count'] = map(lambda tweet: 0 if 'retweeted_status' in tweet else tweet['favorite_count'], tweets)
+    tweets_df['User Mentions'] = map(get_user_mentions_from_tweet, tweets)
     return tweets_df
-
+# print df_from_csv()
 # fetch_tweets(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)

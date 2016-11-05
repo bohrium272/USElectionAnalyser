@@ -1,0 +1,769 @@
+                             handle  \
+id                                    
+780925634159796224   HillaryClinton   
+780916180899037184   HillaryClinton   
+780911564857761793   HillaryClinton   
+780907038650068994   HillaryClinton   
+780897419462602752   HillaryClinton   
+780893126605037568  realDonaldTrump   
+780883582051123200   HillaryClinton   
+780881075891531776   HillaryClinton   
+780876760086880256  realDonaldTrump   
+780874710049550336   HillaryClinton   
+780869063648153601   HillaryClinton   
+780867418012979204  realDonaldTrump   
+780863218646474757  realDonaldTrump   
+780861171238834176  realDonaldTrump   
+780859420846727168   HillaryClinton   
+780859319319400448  realDonaldTrump   
+780853860135006211  realDonaldTrump   
+780852261442445312   HillaryClinton   
+780840847256453120   HillaryClinton   
+780832403392790529   HillaryClinton   
+780831901204484097   HillaryClinton   
+780830984262516736   HillaryClinton   
+780830729760485378   HillaryClinton   
+780830087457406980   HillaryClinton   
+780828916919504896   HillaryClinton   
+780828206039502848   HillaryClinton   
+780827541670076416   HillaryClinton   
+780826236213927937  realDonaldTrump   
+780825360611086336   HillaryClinton   
+780824346310877184   HillaryClinton   
+...                             ...   
+685060524548222976  realDonaldTrump   
+685057265989189632  realDonaldTrump   
+685054952754941952  realDonaldTrump   
+684875944352432128  realDonaldTrump   
+684844313528942599  realDonaldTrump   
+684832481414148096  realDonaldTrump   
+684817323333693442  realDonaldTrump   
+684817275430539264  realDonaldTrump   
+684751768522194944  realDonaldTrump   
+684742583520722944  realDonaldTrump   
+684585121039552512  realDonaldTrump   
+684584079983915008  realDonaldTrump   
+684582854613807104  realDonaldTrump   
+684582462022758400  realDonaldTrump   
+684581798504955904  realDonaldTrump   
+684581639561822208  realDonaldTrump   
+684581112161636352  realDonaldTrump   
+684564419557339143  realDonaldTrump   
+684563455001636864  realDonaldTrump   
+684562852372426752  realDonaldTrump   
+684531959939371008  realDonaldTrump   
+684435524346613765  realDonaldTrump   
+684432562241015808  realDonaldTrump   
+684429853433696258  realDonaldTrump   
+684417452906774529  realDonaldTrump   
+684219579548041218  realDonaldTrump   
+684218836569206784  realDonaldTrump   
+684218305100525569  realDonaldTrump   
+684217554861199360  realDonaldTrump   
+684216973815844866  realDonaldTrump   
+
+                                                                 text  \
+id                                                                      
+780925634159796224  The question in this election: Who can put the...   
+780916180899037184  Last night, Donald Trump said not paying taxes...   
+780911564857761793  Couldn't be more proud of @HillaryClinton. Her...   
+780907038650068994  If we stand together, there's nothing we can't...   
+780897419462602752  Both candidates were asked about how they'd co...   
+780893126605037568  Join me for a 3pm rally - tomorrow at the Mid-...   
+780883582051123200  This election is too important to sit out. Go ...   
+780881075891531776  When Donald Trump goes low...register to vote:...   
+780876760086880256  Once again, we will have a government of, by a...   
+780874710049550336  3) Has Trump offered a single proposal to redu...   
+780869063648153601  The election is just weeks away. Check if you'...   
+780867418012979204  On National #VoterRegistrationDay, make sure y...   
+780863218646474757  Hillary Clinton's Campaign Continues To Make F...   
+780861171238834176  'CNBC, Time magazine online polls say Donald T...   
+780859420846727168  Donald Trump lied to the American people at le...   
+780859319319400448  Great afternoon in Little Havana with Hispanic...   
+780853860135006211  In the last 24 hrs. we have raised over $13M f...   
+780852261442445312  “She gained about 55 pounds in...9 months. She...   
+780840847256453120  It's #NationalVoterRegistrationDay. Celebrate ...   
+780832403392790529  "I love this country.\nI’m proud of this count...   
+780831901204484097  We don’t want to turn against each other.\nWe ...   
+780830984262516736  "What we hear from my opponent is dangerously ...   
+780830729760485378  One candidate made it clear he wasn’t prepared...   
+780830087457406980  "What kind of a person would want to root for ...   
+780828916919504896  "I don’t think that any family should have to ...   
+780828206039502848  "I’m really glad my dad never had a contract w...   
+780827541670076416  When you work hard, you should not be living i...   
+780826236213927937  Well, now they're saying that I not only won t...   
+780825360611086336  "We may have a record-setting turnout in this ...   
+780824346310877184  "You can go to https://t.co/tTgeqxNqYm to make...   
+...                                                               ...   
+685060524548222976  It was a very wise move that Ted Cruz renounce...   
+685057265989189632  .@Macys was one of the worst performing stocks...   
+685054952754941952  The failing @UnionLeader newspaper in N.H. jus...   
+684875944352432128  Do you believe that @UnionLeader in NH was dem...   
+684844313528942599  I will be on @wolfblitzer for a @CNNSitRoom in...   
+684832481414148096  Huge crowd expected tomorrow night! VT Police ...   
+684817323333693442  Don’t like @SamuelLJackson’s golf swing.  Not ...   
+684817275430539264  I don’t cheat at golf but @SamuelLJackson chea...   
+684751768522194944  HAPPY BIRTHDAY to my son, @EricTrump! Very pro...   
+684742583520722944  Germany is going through massive attacks to it...   
+684585121039552512  "@becker_berta: @longtalltexan20 Trump single ...   
+684584079983915008  "@ArkaysDesign: @slone @realDonaldTrump Have t...   
+684582854613807104  "@CompresPhyllis:  @seanhannity @FoxNews I am ...   
+684582462022758400  "@Kacee50: @realDonaldTrump Women make up the ...   
+684581798504955904  "@kristopheryan11: @realDonaldTrump mr trump y...   
+684581639561822208  "@dantegtmeyer: # ISIS Reportedly Murders Spie...   
+684581112161636352  "@Boazziz: . @DanScavino Somewhere in that cro...   
+684564419557339143  "@RubinsteinNel: @realDonaldTrump @pearl_brend...   
+684563455001636864  "@trumpy17: @realDonaldTrump gave an AWESOME s...   
+684562852372426752  "@pearl_brendan: @dphilbs if @realDonaldTrump ...   
+684531959939371008  I am in New Hampshire. Just received great new...   
+684435524346613765  "@longtalltexan20 @realDonaldTrump  I love it ...   
+684432562241015808  "@Lucky5713 @NewDay What's wrong with showing ...   
+684429853433696258  I don’t know @SamuelLJackson, to best of my kn...   
+684417452906774529  Wow @UnionLeader circulation in NH has dropped...   
+684219579548041218  "@lilredfrmkokomo: @realDonaldTrump My Faceboo...   
+684218836569206784  "@marybnall01: @realDonaldTrump watched lowell...   
+684218305100525569  "@ghosthunter_lol: Iowa key endorsement for @r...   
+684217554861199360  "@iLoveiDevices: @EdwinRo47796972 @happyjack22...   
+684216973815844866  "@SalRiccobono: @realDonaldTrump @troyconway D...   
+
+                   is_retweet original_author                 time  \
+id                                                                   
+780925634159796224      False             NaN  2016-09-28T00:22:34   
+780916180899037184       True        timkaine  2016-09-27T23:45:00   
+780911564857761793       True           POTUS  2016-09-27T23:26:40   
+780907038650068994      False             NaN  2016-09-27T23:08:41   
+780897419462602752      False             NaN  2016-09-27T22:30:27   
+780893126605037568      False             NaN  2016-09-27T22:13:24   
+780883582051123200      False             NaN  2016-09-27T21:35:28   
+780881075891531776      False             NaN  2016-09-27T21:25:31   
+780876760086880256      False             NaN  2016-09-27T21:08:22   
+780874710049550336       True          mcuban  2016-09-27T21:00:13   
+780869063648153601       True        ddlovato  2016-09-27T20:37:47   
+780867418012979204       True             GOP  2016-09-27T20:31:14   
+780863218646474757      False             NaN  2016-09-27T20:14:33   
+780861171238834176      False             NaN  2016-09-27T20:06:25   
+780859420846727168      False             NaN  2016-09-27T19:59:28   
+780859319319400448      False             NaN  2016-09-27T19:59:04   
+780853860135006211      False             NaN  2016-09-27T19:37:22   
+780852261442445312      False             NaN  2016-09-27T19:31:01   
+780840847256453120      False             NaN  2016-09-27T18:45:39   
+780832403392790529      False             NaN  2016-09-27T18:12:06   
+780831901204484097      False             NaN  2016-09-27T18:10:07   
+780830984262516736      False             NaN  2016-09-27T18:06:28   
+780830729760485378      False             NaN  2016-09-27T18:05:27   
+780830087457406980      False             NaN  2016-09-27T18:02:54   
+780828916919504896      False             NaN  2016-09-27T17:58:15   
+780828206039502848      False             NaN  2016-09-27T17:55:26   
+780827541670076416      False             NaN  2016-09-27T17:52:47   
+780826236213927937      False             NaN  2016-09-27T17:47:36   
+780825360611086336      False             NaN  2016-09-27T17:44:07   
+780824346310877184      False             NaN  2016-09-27T17:40:05   
+...                       ...             ...                  ...   
+685060524548222976      False             NaN  2016-01-07T11:28:51   
+685057265989189632      False             NaN  2016-01-07T11:15:54   
+685054952754941952      False             NaN  2016-01-07T11:06:43   
+684875944352432128      False             NaN  2016-01-06T23:15:24   
+684844313528942599      False             NaN  2016-01-06T21:09:42   
+684832481414148096      False             NaN  2016-01-06T20:22:41   
+684817323333693442      False             NaN  2016-01-06T19:22:27   
+684817275430539264      False             NaN  2016-01-06T19:22:16   
+684751768522194944      False             NaN  2016-01-06T15:01:58   
+684742583520722944      False             NaN  2016-01-06T14:25:28   
+684585121039552512      False             NaN  2016-01-06T03:59:46   
+684584079983915008      False             NaN  2016-01-06T03:55:38   
+684582854613807104      False             NaN  2016-01-06T03:50:46   
+684582462022758400      False             NaN  2016-01-06T03:49:12   
+684581798504955904      False             NaN  2016-01-06T03:46:34   
+684581639561822208      False             NaN  2016-01-06T03:45:56   
+684581112161636352      False             NaN  2016-01-06T03:43:50   
+684564419557339143      False             NaN  2016-01-06T02:37:30   
+684563455001636864      False             NaN  2016-01-06T02:33:40   
+684562852372426752      False             NaN  2016-01-06T02:31:17   
+684531959939371008      False             NaN  2016-01-06T00:28:31   
+684435524346613765      False             NaN  2016-01-05T18:05:19   
+684432562241015808      False             NaN  2016-01-05T17:53:33   
+684429853433696258      False             NaN  2016-01-05T17:42:47   
+684417452906774529      False             NaN  2016-01-05T16:53:31   
+684219579548041218      False             NaN  2016-01-05T03:47:14   
+684218836569206784      False             NaN  2016-01-05T03:44:17   
+684218305100525569      False             NaN  2016-01-05T03:42:10   
+684217554861199360      False             NaN  2016-01-05T03:39:11   
+684216973815844866      False             NaN  2016-01-05T03:36:53   
+
+                   in_reply_to_screen_name  in_reply_to_status_id  \
+id                                                                  
+780925634159796224                     NaN                    NaN   
+780916180899037184                     NaN                    NaN   
+780911564857761793                     NaN                    NaN   
+780907038650068994                     NaN                    NaN   
+780897419462602752                     NaN                    NaN   
+780893126605037568                     NaN                    NaN   
+780883582051123200                     NaN                    NaN   
+780881075891531776                     NaN                    NaN   
+780876760086880256                     NaN                    NaN   
+780874710049550336                     NaN                    NaN   
+780869063648153601                     NaN                    NaN   
+780867418012979204                     NaN                    NaN   
+780863218646474757                     NaN                    NaN   
+780861171238834176                     NaN                    NaN   
+780859420846727168                     NaN                    NaN   
+780859319319400448                     NaN                    NaN   
+780853860135006211                     NaN                    NaN   
+780852261442445312                     NaN                    NaN   
+780840847256453120                     NaN                    NaN   
+780832403392790529          HillaryClinton           7.808319e+17   
+780831901204484097          HillaryClinton           7.808310e+17   
+780830984262516736          HillaryClinton           7.808301e+17   
+780830729760485378                     NaN                    NaN   
+780830087457406980          HillaryClinton           7.808289e+17   
+780828916919504896          HillaryClinton           7.808282e+17   
+780828206039502848          HillaryClinton           7.808275e+17   
+780827541670076416          HillaryClinton           7.808254e+17   
+780826236213927937                     NaN                    NaN   
+780825360611086336          HillaryClinton           7.808243e+17   
+780824346310877184          HillaryClinton           7.808231e+17   
+...                                    ...                    ...   
+685060524548222976                     NaN                    NaN   
+685057265989189632                     NaN                    NaN   
+685054952754941952                     NaN                    NaN   
+684875944352432128                     NaN                    NaN   
+684844313528942599                     NaN                    NaN   
+684832481414148096                     NaN                    NaN   
+684817323333693442                     NaN                    NaN   
+684817275430539264                     NaN                    NaN   
+684751768522194944                     NaN                    NaN   
+684742583520722944                     NaN                    NaN   
+684585121039552512                     NaN                    NaN   
+684584079983915008                     NaN                    NaN   
+684582854613807104                     NaN                    NaN   
+684582462022758400                     NaN                    NaN   
+684581798504955904                     NaN                    NaN   
+684581639561822208                     NaN                    NaN   
+684581112161636352                     NaN                    NaN   
+684564419557339143                     NaN                    NaN   
+684563455001636864                     NaN                    NaN   
+684562852372426752                     NaN                    NaN   
+684531959939371008                     NaN                    NaN   
+684435524346613765                     NaN                    NaN   
+684432562241015808                     NaN                    NaN   
+684429853433696258                     NaN                    NaN   
+684417452906774529                     NaN                    NaN   
+684219579548041218                     NaN                    NaN   
+684218836569206784                     NaN                    NaN   
+684218305100525569                     NaN                    NaN   
+684217554861199360                     NaN                    NaN   
+684216973815844866                     NaN                    NaN   
+
+                    in_reply_to_user_id is_quote_status lang  \
+id                                                             
+780925634159796224                  NaN           False   en   
+780916180899037184                  NaN           False   en   
+780911564857761793                  NaN           False   en   
+780907038650068994                  NaN           False   en   
+780897419462602752                  NaN           False   en   
+780893126605037568                  NaN           False   en   
+780883582051123200                  NaN           False   en   
+780881075891531776                  NaN           False   en   
+780876760086880256                  NaN           False   en   
+780874710049550336                  NaN           False   en   
+780869063648153601                  NaN           False   en   
+780867418012979204                  NaN           False   en   
+780863218646474757                  NaN           False   en   
+780861171238834176                  NaN           False   en   
+780859420846727168                  NaN           False   en   
+780859319319400448                  NaN           False   en   
+780853860135006211                  NaN           False   en   
+780852261442445312                  NaN           False   en   
+780840847256453120                  NaN           False   en   
+780832403392790529         1.339836e+09           False   en   
+780831901204484097         1.339836e+09           False   en   
+780830984262516736         1.339836e+09           False   en   
+780830729760485378                  NaN           False   en   
+780830087457406980         1.339836e+09           False   en   
+780828916919504896         1.339836e+09           False   en   
+780828206039502848         1.339836e+09           False   en   
+780827541670076416         1.339836e+09           False   en   
+780826236213927937                  NaN           False   en   
+780825360611086336         1.339836e+09           False   en   
+780824346310877184         1.339836e+09           False   en   
+...                                 ...             ...  ...   
+685060524548222976                  NaN           False   en   
+685057265989189632                  NaN           False   en   
+685054952754941952                  NaN           False   en   
+684875944352432128                  NaN           False   en   
+684844313528942599                  NaN           False   en   
+684832481414148096                  NaN           False   en   
+684817323333693442                  NaN           False   en   
+684817275430539264                  NaN           False   en   
+684751768522194944                  NaN           False   en   
+684742583520722944                  NaN           False   en   
+684585121039552512                  NaN           False   en   
+684584079983915008                  NaN           False   en   
+684582854613807104                  NaN           False   en   
+684582462022758400                  NaN           False   en   
+684581798504955904                  NaN           False   en   
+684581639561822208                  NaN           False   en   
+684581112161636352                  NaN           False   en   
+684564419557339143                  NaN           False   en   
+684563455001636864                  NaN           False   en   
+684562852372426752                  NaN           False   en   
+684531959939371008                  NaN           False   en   
+684435524346613765                  NaN           False   en   
+684432562241015808                  NaN           False   en   
+684429853433696258                  NaN           False   en   
+684417452906774529                  NaN           False   en   
+684219579548041218                  NaN           False   en   
+684218836569206784                  NaN           False   en   
+684218305100525569                  NaN           False   en   
+684217554861199360                  NaN           False   en   
+684216973815844866                  NaN           False   en   
+
+                                          ...                          \
+id                                        ...                           
+780925634159796224                        ...                           
+780916180899037184                        ...                           
+780911564857761793                        ...                           
+780907038650068994                        ...                           
+780897419462602752                        ...                           
+780893126605037568                        ...                           
+780883582051123200                        ...                           
+780881075891531776                        ...                           
+780876760086880256                        ...                           
+780874710049550336                        ...                           
+780869063648153601                        ...                           
+780867418012979204                        ...                           
+780863218646474757                        ...                           
+780861171238834176                        ...                           
+780859420846727168                        ...                           
+780859319319400448                        ...                           
+780853860135006211                        ...                           
+780852261442445312                        ...                           
+780840847256453120                        ...                           
+780832403392790529                        ...                           
+780831901204484097                        ...                           
+780830984262516736                        ...                           
+780830729760485378                        ...                           
+780830087457406980                        ...                           
+780828916919504896                        ...                           
+780828206039502848                        ...                           
+780827541670076416                        ...                           
+780826236213927937                        ...                           
+780825360611086336                        ...                           
+780824346310877184                        ...                           
+...                                       ...                           
+685060524548222976                        ...                           
+685057265989189632                        ...                           
+685054952754941952                        ...                           
+684875944352432128                        ...                           
+684844313528942599                        ...                           
+684832481414148096                        ...                           
+684817323333693442                        ...                           
+684817275430539264                        ...                           
+684751768522194944                        ...                           
+684742583520722944                        ...                           
+684585121039552512                        ...                           
+684584079983915008                        ...                           
+684582854613807104                        ...                           
+684582462022758400                        ...                           
+684581798504955904                        ...                           
+684581639561822208                        ...                           
+684581112161636352                        ...                           
+684564419557339143                        ...                           
+684563455001636864                        ...                           
+684562852372426752                        ...                           
+684531959939371008                        ...                           
+684435524346613765                        ...                           
+684432562241015808                        ...                           
+684429853433696258                        ...                           
+684417452906774529                        ...                           
+684219579548041218                        ...                           
+684218836569206784                        ...                           
+684218305100525569                        ...                           
+684217554861199360                        ...                           
+684216973815844866                        ...                           
+
+                    place_type  place_country_code  place_country  \
+id                                                                  
+780925634159796224         NaN                 NaN            NaN   
+780916180899037184         NaN                 NaN            NaN   
+780911564857761793         NaN                 NaN            NaN   
+780907038650068994         NaN                 NaN            NaN   
+780897419462602752         NaN                 NaN            NaN   
+780893126605037568         NaN                 NaN            NaN   
+780883582051123200         NaN                 NaN            NaN   
+780881075891531776         NaN                 NaN            NaN   
+780876760086880256         NaN                 NaN            NaN   
+780874710049550336         NaN                 NaN            NaN   
+780869063648153601         NaN                 NaN            NaN   
+780867418012979204         NaN                 NaN            NaN   
+780863218646474757         NaN                 NaN            NaN   
+780861171238834176         NaN                 NaN            NaN   
+780859420846727168         NaN                 NaN            NaN   
+780859319319400448         NaN                 NaN            NaN   
+780853860135006211         NaN                 NaN            NaN   
+780852261442445312         NaN                 NaN            NaN   
+780840847256453120         NaN                 NaN            NaN   
+780832403392790529         NaN                 NaN            NaN   
+780831901204484097         NaN                 NaN            NaN   
+780830984262516736         NaN                 NaN            NaN   
+780830729760485378         NaN                 NaN            NaN   
+780830087457406980         NaN                 NaN            NaN   
+780828916919504896         NaN                 NaN            NaN   
+780828206039502848         NaN                 NaN            NaN   
+780827541670076416         NaN                 NaN            NaN   
+780826236213927937         NaN                 NaN            NaN   
+780825360611086336         NaN                 NaN            NaN   
+780824346310877184         NaN                 NaN            NaN   
+...                        ...                 ...            ...   
+685060524548222976         NaN                 NaN            NaN   
+685057265989189632         NaN                 NaN            NaN   
+685054952754941952         NaN                 NaN            NaN   
+684875944352432128         NaN                 NaN            NaN   
+684844313528942599         NaN                 NaN            NaN   
+684832481414148096         NaN                 NaN            NaN   
+684817323333693442         NaN                 NaN            NaN   
+684817275430539264         NaN                 NaN            NaN   
+684751768522194944         NaN                 NaN            NaN   
+684742583520722944         NaN                 NaN            NaN   
+684585121039552512         NaN                 NaN            NaN   
+684584079983915008         NaN                 NaN            NaN   
+684582854613807104         NaN                 NaN            NaN   
+684582462022758400         NaN                 NaN            NaN   
+684581798504955904         NaN                 NaN            NaN   
+684581639561822208         NaN                 NaN            NaN   
+684581112161636352         NaN                 NaN            NaN   
+684564419557339143         NaN                 NaN            NaN   
+684563455001636864         NaN                 NaN            NaN   
+684562852372426752         NaN                 NaN            NaN   
+684531959939371008         NaN                 NaN            NaN   
+684435524346613765         NaN                 NaN            NaN   
+684432562241015808         NaN                 NaN            NaN   
+684429853433696258         NaN                 NaN            NaN   
+684417452906774529         NaN                 NaN            NaN   
+684219579548041218         NaN                 NaN            NaN   
+684218836569206784         NaN                 NaN            NaN   
+684218305100525569         NaN                 NaN            NaN   
+684217554861199360         NaN                 NaN            NaN   
+684216973815844866         NaN                 NaN            NaN   
+
+                    place_contained_within place_attributes  \
+id                                                            
+780925634159796224                     NaN              NaN   
+780916180899037184                     NaN              NaN   
+780911564857761793                     NaN              NaN   
+780907038650068994                     NaN              NaN   
+780897419462602752                     NaN              NaN   
+780893126605037568                     NaN              NaN   
+780883582051123200                     NaN              NaN   
+780881075891531776                     NaN              NaN   
+780876760086880256                     NaN              NaN   
+780874710049550336                     NaN              NaN   
+780869063648153601                     NaN              NaN   
+780867418012979204                     NaN              NaN   
+780863218646474757                     NaN              NaN   
+780861171238834176                     NaN              NaN   
+780859420846727168                     NaN              NaN   
+780859319319400448                     NaN              NaN   
+780853860135006211                     NaN              NaN   
+780852261442445312                     NaN              NaN   
+780840847256453120                     NaN              NaN   
+780832403392790529                     NaN              NaN   
+780831901204484097                     NaN              NaN   
+780830984262516736                     NaN              NaN   
+780830729760485378                     NaN              NaN   
+780830087457406980                     NaN              NaN   
+780828916919504896                     NaN              NaN   
+780828206039502848                     NaN              NaN   
+780827541670076416                     NaN              NaN   
+780826236213927937                     NaN              NaN   
+780825360611086336                     NaN              NaN   
+780824346310877184                     NaN              NaN   
+...                                    ...              ...   
+685060524548222976                     NaN              NaN   
+685057265989189632                     NaN              NaN   
+685054952754941952                     NaN              NaN   
+684875944352432128                     NaN              NaN   
+684844313528942599                     NaN              NaN   
+684832481414148096                     NaN              NaN   
+684817323333693442                     NaN              NaN   
+684817275430539264                     NaN              NaN   
+684751768522194944                     NaN              NaN   
+684742583520722944                     NaN              NaN   
+684585121039552512                     NaN              NaN   
+684584079983915008                     NaN              NaN   
+684582854613807104                     NaN              NaN   
+684582462022758400                     NaN              NaN   
+684581798504955904                     NaN              NaN   
+684581639561822208                     NaN              NaN   
+684581112161636352                     NaN              NaN   
+684564419557339143                     NaN              NaN   
+684563455001636864                     NaN              NaN   
+684562852372426752                     NaN              NaN   
+684531959939371008                     NaN              NaN   
+684435524346613765                     NaN              NaN   
+684432562241015808                     NaN              NaN   
+684429853433696258                     NaN              NaN   
+684417452906774529                     NaN              NaN   
+684219579548041218                     NaN              NaN   
+684218836569206784                     NaN              NaN   
+684218305100525569                     NaN              NaN   
+684217554861199360                     NaN              NaN   
+684216973815844866                     NaN              NaN   
+
+                   place_bounding_box  \
+id                                      
+780925634159796224                NaN   
+780916180899037184                NaN   
+780911564857761793                NaN   
+780907038650068994                NaN   
+780897419462602752                NaN   
+780893126605037568                NaN   
+780883582051123200                NaN   
+780881075891531776                NaN   
+780876760086880256                NaN   
+780874710049550336                NaN   
+780869063648153601                NaN   
+780867418012979204                NaN   
+780863218646474757                NaN   
+780861171238834176                NaN   
+780859420846727168                NaN   
+780859319319400448                NaN   
+780853860135006211                NaN   
+780852261442445312                NaN   
+780840847256453120                NaN   
+780832403392790529                NaN   
+780831901204484097                NaN   
+780830984262516736                NaN   
+780830729760485378                NaN   
+780830087457406980                NaN   
+780828916919504896                NaN   
+780828206039502848                NaN   
+780827541670076416                NaN   
+780826236213927937                NaN   
+780825360611086336                NaN   
+780824346310877184                NaN   
+...                               ...   
+685060524548222976                NaN   
+685057265989189632                NaN   
+685054952754941952                NaN   
+684875944352432128                NaN   
+684844313528942599                NaN   
+684832481414148096                NaN   
+684817323333693442                NaN   
+684817275430539264                NaN   
+684751768522194944                NaN   
+684742583520722944                NaN   
+684585121039552512                NaN   
+684584079983915008                NaN   
+684582854613807104                NaN   
+684582462022758400                NaN   
+684581798504955904                NaN   
+684581639561822208                NaN   
+684581112161636352                NaN   
+684564419557339143                NaN   
+684563455001636864                NaN   
+684562852372426752                NaN   
+684531959939371008                NaN   
+684435524346613765                NaN   
+684432562241015808                NaN   
+684429853433696258                NaN   
+684417452906774529                NaN   
+684219579548041218                NaN   
+684218836569206784                NaN   
+684218305100525569                NaN   
+684217554861199360                NaN   
+684216973815844866                NaN   
+
+                                                      source_url truncated  \
+id                                                                           
+780925634159796224                    https://studio.twitter.com     False   
+780916180899037184                            http://twitter.com     False   
+780911564857761793  https://about.twitter.com/products/tweetdeck     False   
+780907038650068994                    https://studio.twitter.com     False   
+780897419462602752  https://about.twitter.com/products/tweetdeck     False   
+780893126605037568            http://twitter.com/download/iphone      True   
+780883582051123200  https://about.twitter.com/products/tweetdeck     False   
+780881075891531776  https://about.twitter.com/products/tweetdeck     False   
+780876760086880256            http://twitter.com/download/iphone     False   
+780874710049550336                            http://twitter.com     False   
+780869063648153601                            http://twitter.com     False   
+780867418012979204            http://twitter.com/download/iphone     False   
+780863218646474757            http://twitter.com/download/iphone     False   
+780861171238834176            http://twitter.com/download/iphone     False   
+780859420846727168  https://about.twitter.com/products/tweetdeck     False   
+780859319319400448            http://twitter.com/download/iphone     False   
+780853860135006211            http://twitter.com/download/iphone     False   
+780852261442445312  https://about.twitter.com/products/tweetdeck     False   
+780840847256453120  https://about.twitter.com/products/tweetdeck     False   
+780832403392790529  https://about.twitter.com/products/tweetdeck     False   
+780831901204484097  https://about.twitter.com/products/tweetdeck     False   
+780830984262516736  https://about.twitter.com/products/tweetdeck     False   
+780830729760485378                    https://studio.twitter.com      True   
+780830087457406980  https://about.twitter.com/products/tweetdeck     False   
+780828916919504896  https://about.twitter.com/products/tweetdeck     False   
+780828206039502848  https://about.twitter.com/products/tweetdeck     False   
+780827541670076416  https://about.twitter.com/products/tweetdeck     False   
+780826236213927937           http://twitter.com/download/android     False   
+780825360611086336  https://about.twitter.com/products/tweetdeck     False   
+780824346310877184  https://about.twitter.com/products/tweetdeck     False   
+...                                                          ...       ...   
+685060524548222976           http://twitter.com/download/android     False   
+685057265989189632           http://twitter.com/download/android     False   
+685054952754941952           http://twitter.com/download/android     False   
+684875944352432128            http://twitter.com/download/iphone     False   
+684844313528942599                            http://twitter.com     False   
+684832481414148096            http://twitter.com/download/iphone     False   
+684817323333693442                            http://twitter.com     False   
+684817275430539264                            http://twitter.com     False   
+684751768522194944            http://twitter.com/download/iphone     False   
+684742583520722944           http://twitter.com/download/android     False   
+684585121039552512           http://twitter.com/download/android     False   
+684584079983915008           http://twitter.com/download/android     False   
+684582854613807104           http://twitter.com/download/android     False   
+684582462022758400           http://twitter.com/download/android     False   
+684581798504955904           http://twitter.com/download/android     False   
+684581639561822208           http://twitter.com/download/android     False   
+684581112161636352           http://twitter.com/download/android     False   
+684564419557339143           http://twitter.com/download/android     False   
+684563455001636864           http://twitter.com/download/android     False   
+684562852372426752           http://twitter.com/download/android     False   
+684531959939371008            http://twitter.com/download/iphone     False   
+684435524346613765                            http://twitter.com     False   
+684432562241015808                            http://twitter.com     False   
+684429853433696258                            http://twitter.com     False   
+684417452906774529                            http://twitter.com     False   
+684219579548041218           http://twitter.com/download/android     False   
+684218836569206784           http://twitter.com/download/android     False   
+684218305100525569           http://twitter.com/download/android     False   
+684217554861199360           http://twitter.com/download/android     False   
+684216973815844866           http://twitter.com/download/android     False   
+
+                                                             entities  \
+id                                                                      
+780925634159796224  {'media': [{'display_url': 'pic.twitter.com/Xr...   
+780916180899037184  {'media': [{'display_url': 'pic.twitter.com/t0...   
+780911564857761793  {'user_mentions': [{'id_str': '1536791610', 'n...   
+780907038650068994  {'media': [{'display_url': 'pic.twitter.com/Q3...   
+780897419462602752  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780893126605037568  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780883582051123200  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780881075891531776  {'media': [{'display_url': 'pic.twitter.com/DX...   
+780876760086880256  {'media': [{'display_url': 'pic.twitter.com/uY...   
+780874710049550336  {'user_mentions': [{'id_str': '16228398', 'nam...   
+780869063648153601  {'user_mentions': [{'id_str': '21111883', 'nam...   
+780867418012979204  {'user_mentions': [{'id_str': '11134252', 'nam...   
+780863218646474757  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780861171238834176  {'user_mentions': [{'id_str': '14662354', 'nam...   
+780859420846727168  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780859319319400448  {'media': [{'display_url': 'pic.twitter.com/vx...   
+780853860135006211  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780852261442445312  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780840847256453120  {'media': [{'display_url': 'pic.twitter.com/R6...   
+780832403392790529  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780831901204484097  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780830984262516736  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780830729760485378  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780830087457406980  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780828916919504896  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780828206039502848  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780827541670076416  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780826236213927937  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780825360611086336  {'user_mentions': [], 'symbols': [], 'urls': [...   
+780824346310877184  {'user_mentions': [], 'symbols': [], 'urls': [...   
+...                                                               ...   
+685060524548222976  {'user_mentions': [], 'symbols': [], 'urls': [...   
+685057265989189632  {'user_mentions': [{'id_str': '50687788', 'nam...   
+685054952754941952  {'user_mentions': [{'id_str': '20073589', 'nam...   
+684875944352432128  {'user_mentions': [{'id_str': '20073589', 'nam...   
+684844313528942599  {'user_mentions': [{'id_str': '71294756', 'nam...   
+684832481414148096  {'user_mentions': [], 'symbols': [], 'urls': [...   
+684817323333693442  {'user_mentions': [{'id_str': '75974281', 'nam...   
+684817275430539264  {'user_mentions': [{'id_str': '75974281', 'nam...   
+684751768522194944  {'media': [{'display_url': 'pic.twitter.com/IJ...   
+684742583520722944  {'user_mentions': [], 'symbols': [], 'urls': [...   
+684585121039552512  {'user_mentions': [{'id_str': '3741826576', 'n...   
+684584079983915008  {'user_mentions': [{'id_str': '343163132', 'na...   
+684582854613807104  {'user_mentions': [{'id_str': '4690730294', 'n...   
+684582462022758400  {'user_mentions': [{'id_str': '3294546230', 'n...   
+684581798504955904  {'user_mentions': [{'id_str': '328805554', 'na...   
+684581639561822208  {'user_mentions': [], 'symbols': [], 'urls': [...   
+684581112161636352  {'user_mentions': [{'id_str': '277501298', 'na...   
+684564419557339143  {'user_mentions': [{'id_str': '55945602', 'nam...   
+684563455001636864  {'user_mentions': [{'id_str': '412780348', 'na...   
+684562852372426752  {'user_mentions': [{'id_str': '4561503396', 'n...   
+684531959939371008  {'media': [{'display_url': 'pic.twitter.com/yz...   
+684435524346613765  {'user_mentions': [{'id_str': '70935715', 'nam...   
+684432562241015808  {'user_mentions': [{'id_str': '233835830', 'na...   
+684429853433696258  {'user_mentions': [{'id_str': '75974281', 'nam...   
+684417452906774529  {'user_mentions': [{'id_str': '20073589', 'nam...   
+684219579548041218  {'user_mentions': [{'id_str': '26122621', 'nam...   
+684218836569206784  {'user_mentions': [{'id_str': '3477455725', 'n...   
+684218305100525569  {'media': [{'display_url': 'pic.twitter.com/JB...   
+684217554861199360  {'user_mentions': [{'id_str': '42568997', 'nam...   
+684216973815844866  {'user_mentions': [{'id_str': '2358794621', 'n...   
+
+                                                    extended_entities  
+id                                                                     
+780925634159796224  {'media': [{'display_url': 'pic.twitter.com/Xr...  
+780916180899037184  {'media': [{'display_url': 'pic.twitter.com/t0...  
+780911564857761793                                                NaN  
+780907038650068994  {'media': [{'display_url': 'pic.twitter.com/Q3...  
+780897419462602752                                                NaN  
+780893126605037568                                                NaN  
+780883582051123200                                                NaN  
+780881075891531776  {'media': [{'display_url': 'pic.twitter.com/DX...  
+780876760086880256  {'media': [{'display_url': 'pic.twitter.com/uY...  
+780874710049550336                                                NaN  
+780869063648153601                                                NaN  
+780867418012979204                                                NaN  
+780863218646474757                                                NaN  
+780861171238834176                                                NaN  
+780859420846727168                                                NaN  
+780859319319400448  {'media': [{'display_url': 'pic.twitter.com/vx...  
+780853860135006211                                                NaN  
+780852261442445312                                                NaN  
+780840847256453120  {'media': [{'display_url': 'pic.twitter.com/R6...  
+780832403392790529                                                NaN  
+780831901204484097                                                NaN  
+780830984262516736                                                NaN  
+780830729760485378                                                NaN  
+780830087457406980                                                NaN  
+780828916919504896                                                NaN  
+780828206039502848                                                NaN  
+780827541670076416                                                NaN  
+780826236213927937                                                NaN  
+780825360611086336                                                NaN  
+780824346310877184                                                NaN  
+...                                                               ...  
+685060524548222976                                                NaN  
+685057265989189632                                                NaN  
+685054952754941952                                                NaN  
+684875944352432128                                                NaN  
+684844313528942599                                                NaN  
+684832481414148096                                                NaN  
+684817323333693442                                                NaN  
+684817275430539264                                                NaN  
+684751768522194944  {'media': [{'display_url': 'pic.twitter.com/IJ...  
+684742583520722944                                                NaN  
+684585121039552512                                                NaN  
+684584079983915008                                                NaN  
+684582854613807104                                                NaN  
+684582462022758400                                                NaN  
+684581798504955904                                                NaN  
+684581639561822208                                                NaN  
+684581112161636352                                                NaN  
+684564419557339143                                                NaN  
+684563455001636864                                                NaN  
+684562852372426752                                                NaN  
+684531959939371008  {'media': [{'display_url': 'pic.twitter.com/yz...  
+684435524346613765                                                NaN  
+684432562241015808                                                NaN  
+684429853433696258                                                NaN  
+684417452906774529                                                NaN  
+684219579548041218                                                NaN  
+684218836569206784                                                NaN  
+684218305100525569  {'media': [{'display_url': 'pic.twitter.com/JB...  
+684217554861199360                                                NaN  
+684216973815844866                                                NaN  
+
+[6444 rows x 27 columns]
