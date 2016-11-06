@@ -15,19 +15,34 @@ $(document).ready(function() {
     });
 
     $.get('/top_10_hashtags', function(data) {
-        var html = '';
-        for(var i = 0 ; i < data.length ; i++)
-            html += '<li class="mdl-list__item"><span class="mdl-list__item-primary-content">#' + data[i] + '</span></li>';
-        document.getElementById('top10_list').innerHTML = html;
-        console.log();
-        ;
-        ;
-        ;
-        ;
-        ;
-        ;
-        ;
-        ;
+        google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(function() {
+            var chart_data = [];
+            var keys = Object.keys(data)
+            chart_data.push(['Hashtag', 'Frequency']);
+            for(var i = 0 ; i < keys.length ; i++) 
+                chart_data.push([keys[i], data[keys[i]]]);
+
+            chart_data = google.visualization.arrayToDataTable(chart_data, {});
+            var options = {
+                chart: {
+                    title: 'Top 10 Hashtags'
+                },
+                hAxis: {
+                    title: 'Frequency of Hashtag',
+                    minValue: 0,
+                },
+                vAxis: {
+                    title: 'Hashtag'
+                },
+                bars: 'vertical'
+            };
+            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
+            chart.draw(data, options);
+        });
+    });
+
+    $.get('/dist/original_fav', function(data) {
         
     });
 });

@@ -16,7 +16,11 @@ def top_10_hashtags():
         all_hashtags = list() 
         for tags in hashtags:
             all_hashtags.extend(tags)
-        return [e for e, c in Counter(all_hashtags).most_common(10)]
+        # return [{e:c} for e, c in Counter(all_hashtags).most_common(10)]
+        top10 = {}
+        for e, c in Counter(all_hashtags).most_common(10):
+            top10[e] = c
+        return top10
     else:
         return None
 
@@ -69,6 +73,6 @@ def dist_original_tweets():
 
 # print get_locations()
 # # print popularity()
-# print top_10_hashtags()
+print top_10_hashtags()
 # print dist_original_tweets()
 # print dist_original_vs_retweet()
