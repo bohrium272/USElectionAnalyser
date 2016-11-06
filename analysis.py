@@ -55,7 +55,7 @@ def dist_original_vs_retweet():
     type = list(tweets_df['Type'])
     return dict(Counter(type))
 
-def dist_original_tweets():
+def dist_fav_on_original_tweets():
     clinton_original_count = 0
     trump_original_count = 0
     others_original_count = 0
@@ -71,8 +71,5 @@ def dist_original_tweets():
                 others_original_count += 1
     return {'Hillary': clinton_original_count, 'Trump': trump_original_count, 'Others': others_original_count}
 
-# print get_locations()
-# # print popularity()
-# print top_10_hashtags()
-# print dist_original_tweets()
-# print dist_original_vs_retweet()
+def mime_type_dist():
+    return dict(Counter(list(tweets_df['Mime Type'])))

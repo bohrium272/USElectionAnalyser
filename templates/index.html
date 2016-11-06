@@ -63,10 +63,11 @@
                 <span class="mdl-layout-title">US Election Analyser</span>
             </div>
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                <a href="#scroll-tab-2" class="mdl-layout__tab"><i class="material-icons" role="presentation">explore</i></a>
-                <a href="#scroll-tab-3" class="mdl-layout__tab"><i class="material-icons" role="presentation">poll</i></a>
-                <a href="#scroll-tab-4" class="mdl-layout__tab"><i class="material-icons" role="presentation">trending_up</i></a>
-                <a href="#scroll-tab-5" class="mdl-layout__tab"><i class="material-icons" role="presentation">multiline_chart</i></a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab is-active">Location of Tweets</a>
+                <a href="#scroll-tab-3" class="mdl-layout__tab">Top 10 Hashtags</a>
+                <a href="#scroll-tab-4" class="mdl-layout__tab">Fav. on Original Tweets</a>
+                <a href="#scroll-tab-5" class="mdl-layout__tab">Original vs Retweets</a>
+                <a href="#scroll-tab-6" class="mdl-layout__tab">Content Type of Tweets</a>
             </div>
         </header>
         <main class="mdl-layout__content">
@@ -74,20 +75,31 @@
                 <div class="page-content" id="tab_location"></div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-                <div class="page-content" id="top10_tab">
+                <div class="page-content">
+                    <canvas id="top10" width="100" height="100"></canvas>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-4">
-                <div class="page-content" id="orig_vs_fav_tab">Tab4</div>
+                <div class="page-content" id="orig_vs_fav_tab">
+                    <canvas id="orig_vs_fav" width="100" height="100"></canvas>
+                </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-5">
-                <div class="page-content">Tab5</div>
+                <div class="page-content" id="orig_vs_ret_tab">
+                    <canvas id="orig_vs_ret" width="100" height="100"></canvas>
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+                <div class="page-content" id="mime_type_tab">
+                    <canvas id="mime_type" width="100" height="100"></canvas>
+                </div>
             </section>
         </main>
     </div>
     <script src="../static/js/jquery-2.2.4.min.js"></script>
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
     <script src="../static/js/custom.js"></script>
 </body>
 

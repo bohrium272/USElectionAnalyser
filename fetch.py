@@ -10,14 +10,14 @@ from numpy.random import randint
 from twitter import *
 
 
-ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
-ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
-CONSUMER_KEY = environ.get('CONSUMER_KEY')
-CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
-MONGODB_URI = environ.get('MONGODB_URI')
-client = MongoClient(MONGODB_URI)
-db = client.get_default_database()
-tweets_collection = db.tweets
+# ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
+# ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
+# CONSUMER_KEY = environ.get('CONSUMER_KEY')
+# CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
+# MONGODB_URI = environ.get('MONGODB_URI')
+# client = MongoClient(MONGODB_URI)
+# db = client.get_default_database()
+# tweets_collection = db.tweets
 
 def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
     """
@@ -46,7 +46,7 @@ def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CO
                     if i % 1000 == 0:
                         print "Completed " + str(i) + " iterations"
         except Exception as e:
-            print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
+            print "WARNING: Stream connection lost, reconnecting in a sec... " + str((type(e), e))
             time.sleep(1)
         if i == no_of_tweets:
             break
@@ -67,27 +67,30 @@ def fetch_tweets_from_json():
     f = open('analysis.json')
     return json.loads(f.read())
 
-def temp(e):
+def unicode_to_json(e):
     return ast.literal_eval(json.loads(json.dumps(e)))
 
-def temp2(e):
+def get_hashtag_text(e):
     all_hashtags = []
     for tag in e['hashtags']:    
         if 'text' in tag:
             all_hashtags.append(tag['text']) 
     return all_hashtags
 
-def temp3(e):
+def get_user_mentions(e):
     if 'name' in e['user_mentions']:
         return e['user_mentions']['name'] 
     else:
         return None
 
-def temp4(e):
+def get_tweet_type(e):
     if e['is_retweet']:
         return 'retweeted'
     else:
         return 'original'
+
+def has_image(e):
+    return True if 'media' in e else False
 
 
 def df_from_csv():
@@ -98,12 +101,13 @@ def df_from_csv():
     new_df['Text'] = df['text']
     new_df['Country'] = df['place_country']
     entities = list(df['entities'])
-    entities = map(temp, entities)
-    new_df['User Mentions'] = map(temp3, entities)
-    new_df['Hashtags'] = map(temp2, entities)
-    new_df['Type'] = df.apply(temp4, axis=1)
+    entities = map(unicode_to_json, entities)
+    new_df['User Mentions'] = map(get_user_mentions, entities)
+    new_df['Hashtags'] = map(get_hashtag_text, entities)
+    new_df['Type'] = df.apply(get_tweet_type, axis=1)
     new_df['Retweeted Count'] = randint(100, 10000, df.shape[0])
     new_df['Favorite Count'] = randint(100, 10000, df.shape[0])
+    new_df['Mime Type'] = map(lambda e: 'textimage' if has_image(e) else 'text', entities)
     return new_df
 
 
@@ -130,6 +134,7 @@ def get_user_mentions_from_tweet(tweet):
         return mentions
     else:
         return None
+
 def make_dataframe(tweets):
     """
     Convert the Tweets from JSON Structure to a Panda's DataFrame
@@ -145,5 +150,3 @@ def make_dataframe(tweets):
     tweets_df['Favorite Count'] = map(lambda tweet: 0 if 'retweeted_status' in tweet else tweet['favorite_count'], tweets)
     tweets_df['User Mentions'] = map(get_user_mentions_from_tweet, tweets)
     return tweets_df
-# print df_from_csv()
-# fetch_tweets(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)

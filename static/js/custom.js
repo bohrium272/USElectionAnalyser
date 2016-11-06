@@ -15,86 +15,128 @@ $(document).ready(function() {
     });
 
     $.get('/top_10_hashtags', function(data) {
-        google.charts.load('current', {packages: ['corechart']});
-        google.charts.setOnLoadCallback(function() {
-            var chart_data = [];
-            var keys = Object.keys(data)
-            chart_data.push(['Hashtag', 'Frequency']);
-            for(var i = 0 ; i < keys.length ; i++) 
-                chart_data.push([keys[i], data[keys[i]]]);
-
-            chart_data = google.visualization.arrayToDataTable(chart_data, {});
-            var options = {
-                chart: {
-                    title: 'Top 10 Hashtags'
-                },
-                vAxis: {
-                    title: 'Frequency of Hashtag',
-                    minValue: 0,
-                },
-                hAxis: {
-                    title: 'Hashtag'
-                },
-                bars: 'vertical'
-            };
-            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
-            chart.draw(data, options);
+        console.log('Loading Top 10');
+        var chart_data = [];
+        var keys = Object.keys(data)
+        for(var i = 0 ; i < keys.length ; i++) 
+            chart_data.push(data[keys[i]]);
+        var ctx = document.getElementById('top10');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                        label: 'Frequency',
+                        data: chart_data,
+                        borderWidth: 1,
+                        backgroundColor: 'rgba(255, 206, 86, 1)'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
         });
     });
 
     $.get('/dist/original_fav', function(data) {
-        google.charts.load('current', {packages: ['corechart']});
-        google.charts.setOnLoadCallback(function() {
-            var chart_data = [];
-            var keys = Object.keys(data)
-            chart_data.push(['Entity', 'Number of "favorites" on Original Tweets']);
-            for(var i = 0 ; i < keys.length ; i++) 
-                chart_data.push([keys[i], data[keys[i]]]);
-
-            chart_data = google.visualization.arrayToDataTable(chart_data, {});
-            var options = {
-                chart: {
-                    title: 'Favorites on Original Tweets'
-                },
-                vAxis: {
-                    title: 'Number of Favorites',
-                    minValue: 0,
-                },
-                hAxis: {
-                    title: 'Entity'
-                },
-                bars: 'vertical'
-            };
-            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
-            chart.draw(data, options);
+        var chart_data = [];
+        console.log('Loading Top 10');
+        var keys = Object.keys(data)
+        for(var i = 0 ; i < keys.length ; i++) 
+            chart_data.push(data[keys[i]]);
+        var ctx = document.getElementById('orig_vs_fav');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                        label: 'Number of Favorites',
+                        data: chart_data,
+                        borderWidth: 1,
+                        backgroundColor: 'rgba(255, 206, 86, 1)'
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
         });
     });
 
     $.get('/dist/original_retweet', function(data) {
-        google.charts.load('current', {packages: ['corechart']});
-        google.charts.setOnLoadCallback(function() {
-            var chart_data = [];
-            var keys = Object.keys(data)
-            chart_data.push(['Entity', 'Number of "favorites" on Original Tweets']);
-            for(var i = 0 ; i < keys.length ; i++) 
-                chart_data.push([keys[i], data[keys[i]]]);
-
-            chart_data = google.visualization.arrayToDataTable(chart_data, {});
-            var options = {
-                chart: {
-                    title: 'Favorites on Original Tweets'
-                },
-                vAxis: {
-                    title: 'Number of Favorites',
-                    minValue: 0,
-                },
-                hAxis: {
-                    title: 'Entity'
-                },
-                bars: 'vertical'
-            };
-            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
-            chart.draw(data, options);
+        var chart_data = [];
+        console.log('Loading Top 10');
+        var keys = Object.keys(data)
+        for(var i = 0 ; i < keys.length ; i++) 
+            chart_data.push(data[keys[i]]);
+        var ctx = document.getElementById('orig_vs_ret');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                        label: 'Frequency',
+                        data: chart_data,
+                        borderWidth: 1,
+                        backgroundColor: 'rgba(255, 206, 86, 1)'
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
         });
-    })
+    });
+
+    $.get('/dist/mime_type', function(data) {
+        var chart_data = [];
+        console.log('Loading Top 10');
+        var keys = Object.keys(data)
+        for(var i = 0 ; i < keys.length ; i++) 
+            chart_data.push(data[keys[i]]);
+        var ctx = document.getElementById('mime_type');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                        label: 'Frequency',
+                        data: chart_data,
+                        borderWidth: 1,
+                        backgroundColor: 'rgba(255, 206, 86, 1)'
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
+        });
+    });
 });
