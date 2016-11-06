@@ -28,11 +28,11 @@ $(document).ready(function() {
                 chart: {
                     title: 'Top 10 Hashtags'
                 },
-                hAxis: {
+                vAxis: {
                     title: 'Frequency of Hashtag',
                     minValue: 0,
                 },
-                vAxis: {
+                hAxis: {
                     title: 'Hashtag'
                 },
                 bars: 'vertical'
@@ -43,6 +43,58 @@ $(document).ready(function() {
     });
 
     $.get('/dist/original_fav', function(data) {
-        
+        google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(function() {
+            var chart_data = [];
+            var keys = Object.keys(data)
+            chart_data.push(['Entity', 'Number of "favorites" on Original Tweets']);
+            for(var i = 0 ; i < keys.length ; i++) 
+                chart_data.push([keys[i], data[keys[i]]]);
+
+            chart_data = google.visualization.arrayToDataTable(chart_data, {});
+            var options = {
+                chart: {
+                    title: 'Favorites on Original Tweets'
+                },
+                vAxis: {
+                    title: 'Number of Favorites',
+                    minValue: 0,
+                },
+                hAxis: {
+                    title: 'Entity'
+                },
+                bars: 'vertical'
+            };
+            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
+            chart.draw(data, options);
+        });
     });
+
+    $.get('/dist/original_retweet', function(data) {
+        google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(function() {
+            var chart_data = [];
+            var keys = Object.keys(data)
+            chart_data.push(['Entity', 'Number of "favorites" on Original Tweets']);
+            for(var i = 0 ; i < keys.length ; i++) 
+                chart_data.push([keys[i], data[keys[i]]]);
+
+            chart_data = google.visualization.arrayToDataTable(chart_data, {});
+            var options = {
+                chart: {
+                    title: 'Favorites on Original Tweets'
+                },
+                vAxis: {
+                    title: 'Number of Favorites',
+                    minValue: 0,
+                },
+                hAxis: {
+                    title: 'Entity'
+                },
+                bars: 'vertical'
+            };
+            var chart = new google.charts.Bar(document.getElementById('top10_tab'));
+            chart.draw(data, options);
+        });
+    })
 });

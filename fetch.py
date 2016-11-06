@@ -10,11 +10,14 @@ from numpy.random import randint
 from twitter import *
 
 
-# ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
-# ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
-# CONSUMER_KEY = environ.get('CONSUMER_KEY')
-# CONSUMER_KEY_SECRET = environ.get('CONSUMEzR_KEY_SECRET')
-# MONGODB_URI = environ.get('MONGODB_URI')
+ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
+ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
+CONSUMER_KEY = environ.get('CONSUMER_KEY')
+CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
+MONGODB_URI = environ.get('MONGODB_URI')
+client = MongoClient(MONGODB_URI)
+db = client.get_default_database()
+tweets_collection = db.tweets
 
 def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
     """
@@ -42,7 +45,7 @@ def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CO
                     i += 1
                     if i % 1000 == 0:
                         print "Completed " + str(i) + " iterations"
-        except(TwitterHTTPError, BadStatusLine, URLError, SSLError, socket.error) as e:
+        except(TwitterHTTPError, URLError, SSLError, socket.error) as e:
             print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
             time.sleep(1)
         if i == no_of_tweets:
