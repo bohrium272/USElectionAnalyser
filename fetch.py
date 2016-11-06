@@ -45,8 +45,8 @@ def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CO
                     i += 1
                     if i % 1000 == 0:
                         print "Completed " + str(i) + " iterations"
-        except:
-            print "WARNING: Stream connection lost, reconnecting in a sec... "
+        except Exception as e:
+            print "WARNING: Stream connection lost, reconnecting in a sec... " + (type(e), e)
             time.sleep(1)
         if i == no_of_tweets:
             break
