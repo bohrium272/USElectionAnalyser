@@ -73,6 +73,6 @@ def dist_original_tweets():
 
 # print get_locations()
 # # print popularity()
-print top_10_hashtags()
+# print top_10_hashtags()
 # print dist_original_tweets()
 # print dist_original_vs_retweet()
