@@ -45,7 +45,7 @@ def fetch_tweets_from_db(collection):
         Fetch Tweets from the MongoDB Collection(the one used in fetch_tweets)
     """
     print "Downloading Tweets..."
-    tweets_from_db = collection.find()
+    tweets_from_db = collection.find()[:3000]
     l = list(tweets_from_db)
     json_tweets = json_util.dumps(l)
     f = open('tweets.json', 'w+')
