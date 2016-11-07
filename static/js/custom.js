@@ -35,7 +35,7 @@ $(document).ready(function() {
             map_data.push(['Country', 'Number of Tweets']);
             var keys = Object.keys(data);
             for(var i = 0 ; i < keys.length ; i++)
-                if(keys[i] != 'NaN' || keys[i] != 'null')
+                if(keys[i] != 'NaN' && keys[i] != 'null')
                     map_data.push([keys[i], data[keys[i]]]);
             var chart = new google.visualization.GeoChart(document.getElementById('tab_location'));
             chart.draw(google.visualization.arrayToDataTable(map_data), {});
@@ -53,6 +53,8 @@ $(document).ready(function() {
         var ctx = document.getElementById('top10').getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'bar',
+            height: 100,
+            width: 100,
             data: {
                 labels: Object.keys(data),
                 datasets: [{
@@ -89,6 +91,8 @@ $(document).ready(function() {
         var ctx = document.getElementById('orig_vs_fav');
         var myChart = new Chart(ctx, {
             type: 'bar',
+            height: 200,
+            width: 200,
             data: {
                 labels: Object.keys(data),
                 datasets: [{
@@ -156,6 +160,8 @@ $(document).ready(function() {
         var ctx = document.getElementById('mime_type');
         var myChart = new Chart(ctx, {
             type: 'bar',
+            height: 200,
+            width: 200,
             data: {
                 labels: ['Text', 'Text + Image'],
                 datasets: [{

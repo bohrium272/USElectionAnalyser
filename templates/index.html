@@ -20,13 +20,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="description" content="US Election Twitter Analyser">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>US Election Analyser</title>
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <meta name="apple-mobile-web-app-title" content="US Election Twitter Analyser">
     <meta name="msapplication-TileColor" content="#3372DF">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -59,43 +59,58 @@
                 <a href="#scroll-tab-4" class="mdl-layout__tab">Fav. on Original Tweets</a>
                 <a href="#scroll-tab-5" class="mdl-layout__tab">Original vs Retweets</a>
                 <a href="#scroll-tab-6" class="mdl-layout__tab">Content Type of Tweets</a>
-                <a href="#scroll-tab-7" class="mdl-layout__tab">About and README</a>
+                <a href="#scroll-tab-7" class="mdl-layout__tab">Description of Metrics</a>
+                <a href="#scroll-tab-8" class="mdl-layout__tab">About the App</a>
             </div>
         </header>
-        <main class="mdl-layout__content" style="position: relative">
-            <section class="mdl-layout__tab-panel is-active" style="width: auto" id="scroll-tab-2">
-                <div class="page-content" id="tab_location"></div>
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-2">
+                <div class="page-content" id="tab_location" style="max-height: 75%"></div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-                <div class="page-content">
-                    <canvas id="top10" width="100" height="100"></canvas>
+                <div style="max-height: 100px" class="page-content">
+                    <canvas id="top10" style="max-height: 75%"></canvas>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-4">
                 <div class="page-content" id="orig_vs_fav_tab">
-                    <canvas id="orig_vs_fav" width="100" height="100"></canvas>
+                    <canvas id="orig_vs_fav" style="max-height: 75%"></canvas>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-5">
                 <div class="page-content" id="orig_vs_ret_tab">
-                    <canvas id="orig_vs_ret" width="100" height="100"></canvas>
+                    <canvas id="orig_vs_ret" style="max-height: 75%"></canvas>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-6">
                 <div class="page-content" id="mime_type_tab">
-                    <canvas id="mime_type" width="100" height="100"></canvas>
+                    <canvas id="mime_type" style="max-height: 75%"></canvas>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-7">
+                <div class="page-content" id="mime_type_tab">
+                    <ul class='mdl-list'>
+                        <li class="mdl-list__item"><strong>Location</strong>: Frequency of occurence of each Country in the Tweets and plotting(shading) the country on GeoChart by Google Charts</li>
+                        <li class="mdl-list__item"><strong>Top 10 Hashtags</strong>: Self-explanatory. List of top 10 hashtags based on frequency occurence.</li>
+                        <li class="mdl-list__item"><strong>Fav. on Original Tweets</strong>: Plotting the favorite count on Hillary's, Trump's and others tweets with the hashtag&nbsp<strong> USElections</strong></li>
+                        <li class="mdl-list__item"><strong>Original vs Retweets</strong>: Frequency distribution of original tweets and retweets</li>
+                        <li class="mdl-list__item"><strong>Content Type of Tweets</strong>: Frequency distribution of Text and Text + Image tweets</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-8">
                 <div class="page-content" style="margin-left: 10px" id="readme_tab">
                     <ul class='mdl-list'>
                         <li class="mdl-list__item">Number of Tweets Processed: <h3 id="count_label"></h3></li>
                     </ul>
                     <h3>Minor Issues</h3>
                     <ul class='mdl-list'>
+                        <li class="mdl-list__item">Unfortunately neither Hillary nor Trump have used the hashtag #USElections in the last seven days, so the metric for distribution of favorites on original tweets may not show any result</li>
                         <li class="mdl-list__item">The 'Location' parameter in a Tweet object is very ambigous simply because most of the users haven't enabled their location in their tweets</li>
                         <li class="mdl-list__item">Some countries are not in English hence number of tweets from that country is not shown accurately, for example Germany and Deutschland.</li>
-                        <li class="mdl-list__item">Refreshing the Data takes a lot of time</li> 
+                        <li class="mdl-list__item">Refreshing the Data takes a lot of time</li>
+                        <li class="mdl-list__item">Graphs do not have proper dimensions</li>
+                        <li class="mdl-list__item">The number of tweets in the last 7 days was not enough to reach 10k tweets, however my streamer is still adding tweets to the database.</li>
                     </ul>
                     <h3>Credits</h3>
                     <ul class='mdl-list'>
@@ -111,6 +126,12 @@
                         <li class="mdl-list__item"><a href="https://api.mongodb.com/python/current/">PyMongo</a></li>
                         <li class="mdl-list__item"><a href="http://pandas.pydata.org/">Pandas</a></li>
                         <li class="mdl-list__item"><a href="http://flask.pocoo.org/">Flask</a></li>
+                    </ul>
+                    <h3>Future Imrpovements</h3>
+                    <ul class='mdl-list'>
+                        <li class="mdl-list__item">The task of finding out who is winning according to public opinion can be accomplished using a well trained sentimental analysis engine. </li>
+                        <li class="mdl-list__item">Improving overall Aesthetics of the application like chart sizes.</li>
+                        <li class="mdl-list__item">Using Language Translation to cumulatively map the countries with their number of tweets.</li>
                     </ul>
                 </div>
             </section>
