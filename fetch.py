@@ -47,9 +47,12 @@ def fetch_tweets_from_db(collection):
     print "Downloading Tweets..."
     tweets_from_db = collection.find()[:3000]
     l = list(tweets_from_db)
-    json_tweets = json_util.dumps(l)
-    f = open('tweets.json', 'w+')
-    f.write(json_tweets)
+    tweets_from_db_2 = collection.find()[3001:6000]
+    temp = list(tweets_from_db_2)
+    l.extend(temp)
+    tweets_from_db_3 = collection.find()[6001:]
+    temp = list(tweets_from_db_3)
+    l.extend(temp)
     return l
 
 def has_image(e):
