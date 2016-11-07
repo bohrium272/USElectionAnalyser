@@ -42,13 +42,13 @@ def stream_tweets_to_db(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SEC
 
 def fetch_tweets_from_db(collection):
     """
-        Fetch Tweets from the MongoDB Collection(the one used in fetch_tweets)
+        Fetch Tweets from the MongoDB Collection(the one used in stream_tweets_to_db)
     """
     print "Downloading Tweets..."
     tweets_from_db = collection.find()[:3000]
     l = list(tweets_from_db)
     del tweets_from_db
-    tweets_from_db_2 = collection.find()[3001:6000]
+    tweets_from_db_2 = collection.find()[3001:4500]
     temp = list(tweets_from_db_2)
     l.extend(temp)
     del tweets_from_db_2

@@ -11,6 +11,7 @@ global tweets
 tweets = fetch_tweets_from_db(tweets_collection)
 global tweets_df 
 tweets_df = make_dataframe(tweets)
+del tweets
 
 def top_10_hashtags():
     """
