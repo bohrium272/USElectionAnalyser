@@ -46,9 +46,9 @@ def fetch_tweets_from_db(collection):
     """
     print "Downloading Tweets..."
     tweets_from_db = collection.find()[:3000]
-    del tweets_from_db
     l = list(tweets_from_db)
-    tweets_from_db_2 = collection.find()[3001:5000]
+    del tweets_from_db
+    tweets_from_db_2 = collection.find()[3001:6000]
     temp = list(tweets_from_db_2)
     l.extend(temp)
     del tweets_from_db_2
