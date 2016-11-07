@@ -112,6 +112,7 @@ def make_dataframe(tweets):
     #   Mime Type: (text, text+image)
     tweets_df['Mime Type'] = map(lambda e: 'textimage' if has_image(e) else 'text', tweets)
     print "Conversion Finished"
+    del tweets
     return tweets_df
 
 if __name__ == '__main__':
