@@ -44,16 +44,17 @@ def dist_mime_type():
     response.headers['Content-Type'] = 'application/json'
     return response
 
+@app.route('/refresh_data', methods=['GET'])
+def refresh():
+    try:
+        refresh_data()
+    except Exception as e:
+        response = make_response(json.dumps({"Message": "Failed!"}))
+        response.headers['Content-Type'] = 'application/json'
+        return response
+    response = make_response(json.dumps({"Message": "Success!"}))
+    response.headers['Content-Type'] = 'application/json'
+    return response
+    
 if __name__ == '__main__':
     app.run(debug=True)
-
-# ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
-# ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
-# CONSUMER_KEY = environ.get('CONSUMER_KEY')
-# CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
-# MONGODB_URI = environ.get('MONGODB_URI')
-# client = MongoClient(MONGODB_URI)
-# db = client.get_default_database()
-# tweets_collection = db.tweets
-
-# fetch_tweets(tweets_collection, 5261, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)

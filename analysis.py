@@ -2,21 +2,22 @@ from fetch import *
 from pymongo import MongoClient
 from collections import Counter
 from pandas import DataFrame
-# MONGODB_URI = environ.get('MONGODB_URI')
-# client = MongoClient(MONGODB_URI)
-# db = client.get_default_database()
-# tweets_collection = db.tweets
-# tweets = fetch_tweets_from_db(tweets_collection)
-# tweets = fetch_tweets_from_json()
-# tweets_df = make_dataframe(tweets)
-tweets_df = df_from_csv()
+
+MONGODB_URI = environ.get('MONGODB_URI')
+client = MongoClient(MONGODB_URI)
+db = client.get_default_database()
+tweets_collection = db.tweets
+global tweets 
+tweets = fetch_tweets_from_db(tweets_collection)
+global tweets_df 
+tweets_df = make_dataframe(tweets)
+
 def top_10_hashtags():
     hashtags = tweets_df['Hashtags']
     if not hashtags.empty and len(hashtags) > 0:
         all_hashtags = list() 
         for tags in hashtags:
             all_hashtags.extend(tags)
-        # return [{e:c} for e, c in Counter(all_hashtags).most_common(10)]
         top10 = {}
         for e, c in Counter(all_hashtags).most_common(10):
             top10[e] = c
@@ -29,7 +30,9 @@ def get_locations():
     Returns a dictionary of Number of tweets from each country
     """
     countries = tweets_df['Country']
-    return dict(Counter(countries))
+    d = dict(Counter(countries))
+    print d
+    return d
 
 def popularity():
     """
@@ -73,3 +76,6 @@ def dist_fav_on_original_tweets():
 
 def mime_type_dist():
     return dict(Counter(list(tweets_df['Mime Type'])))
+
+def refresh_data():
+    tweets_df = make_dataframe(fetch_tweets_from_db(tweets_collection))

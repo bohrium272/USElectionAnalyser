@@ -9,16 +9,6 @@ from pymongo import MongoClient
 from numpy.random import randint
 from twitter import *
 
-
-# ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
-# ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
-# CONSUMER_KEY = environ.get('CONSUMER_KEY')
-# CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
-# MONGODB_URI = environ.get('MONGODB_URI')
-# client = MongoClient(MONGODB_URI)
-# db = client.get_default_database()
-# tweets_collection = db.tweets
-
 def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET):
     """
     Fetch Tweets from the Twitter Streaming API and store it in a MongoDB Collection
@@ -52,63 +42,16 @@ def fetch_tweets(collection, no_of_tweets, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CO
             break
     print "Fetch Finished"
 
-
 def fetch_tweets_from_db(collection):
     """
     Fetch Tweets from the MongoDB Collection(the one used in fetch_tweets)
     """
-    return collection.find()
-
-def fetch_tweets_from_json():
-    """
-    Fetch Tweets from a JSON file
-    For testing purpopses only
-    """
-    f = open('analysis.json')
-    return json.loads(f.read())
-
-def unicode_to_json(e):
-    return ast.literal_eval(json.loads(json.dumps(e)))
-
-def get_hashtag_text(e):
-    all_hashtags = []
-    for tag in e['hashtags']:    
-        if 'text' in tag:
-            all_hashtags.append(tag['text']) 
-    return all_hashtags
-
-def get_user_mentions(e):
-    if 'name' in e['user_mentions']:
-        return e['user_mentions']['name'] 
-    else:
-        return None
-
-def get_tweet_type(e):
-    if e['is_retweet']:
-        return 'retweeted'
-    else:
-        return 'original'
+    print "Downloading Tweets..."
+    tweets_from_db = collection.find()
+    return list(tweets_from_db)
 
 def has_image(e):
-    return True if 'media' in e else False
-
-
-def df_from_csv():
-    df = pd.DataFrame().from_csv('tweets.csv')
-    new_df = pd.DataFrame()
-    new_df['Handle'] = df['handle']
-    new_df['Name'] = df['handle'].apply(lambda e: 'Hillary Clinton' if e == 'HillaryClinton' else 'Donald J. Trump')
-    new_df['Text'] = df['text']
-    new_df['Country'] = df['place_country']
-    entities = list(df['entities'])
-    entities = map(unicode_to_json, entities)
-    new_df['User Mentions'] = map(get_user_mentions, entities)
-    new_df['Hashtags'] = map(get_hashtag_text, entities)
-    new_df['Type'] = df.apply(get_tweet_type, axis=1)
-    new_df['Retweeted Count'] = randint(100, 10000, df.shape[0])
-    new_df['Favorite Count'] = randint(100, 10000, df.shape[0])
-    new_df['Mime Type'] = map(lambda e: 'textimage' if has_image(e) else 'text', entities)
-    return new_df
+    return True if 'media' in e['entities'] else False
 
 
 def get_hashtags_from_tweet(tweet):
@@ -136,6 +79,7 @@ def get_user_mentions_from_tweet(tweet):
         return None
 
 def make_dataframe(tweets):
+    print "Converting tweets to a DataFrame Structure"
     """
     Convert the Tweets from JSON Structure to a Panda's DataFrame
     """
@@ -149,4 +93,18 @@ def make_dataframe(tweets):
     tweets_df['Retweeted Count'] = map(lambda tweet: tweet['retweet_count'], tweets)
     tweets_df['Favorite Count'] = map(lambda tweet: 0 if 'retweeted_status' in tweet else tweet['favorite_count'], tweets)
     tweets_df['User Mentions'] = map(get_user_mentions_from_tweet, tweets)
+    tweets_df['Mime Type'] = map(lambda e: 'textimage' if has_image(e) else 'text', tweets)
+    print "Conversion Finished"
     return tweets_df
+
+if __name__ == '__main__':
+    ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
+    ACCESS_TOKEN_SECRET = environ.get('ACCESS_TOKEN_SECRET')
+    CONSUMER_KEY = environ.get('CONSUMER_KEY')
+    CONSUMER_KEY_SECRET = environ.get('CONSUMER_KEY_SECRET')
+    MONGODB_URI = environ.get('MONGODB_URI')
+    client = MongoClient(MONGODB_URI)
+    db = client.get_default_database()
+    tweets_collection = db.tweets
+    print "Streaming Tweets to DB"
+    fetch_tweets(tweets_collection, 5000, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)

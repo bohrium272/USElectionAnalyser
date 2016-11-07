@@ -61,6 +61,8 @@
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <span class="mdl-layout-title">US Election Analyser</span>
+                <div class="mdl-spinner mdl-js-spinner is-active" id="spinner" style="margin-left: 10px"></div>
+                <div style="float: right; overflow: auto; margin-left: 50px"><button style="float: right; overflow: auto; display: block" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="refresh_button">Refresh Data</button></div>
             </div>
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
                 <a href="#scroll-tab-2" class="mdl-layout__tab is-active">Location of Tweets</a>
@@ -68,11 +70,12 @@
                 <a href="#scroll-tab-4" class="mdl-layout__tab">Fav. on Original Tweets</a>
                 <a href="#scroll-tab-5" class="mdl-layout__tab">Original vs Retweets</a>
                 <a href="#scroll-tab-6" class="mdl-layout__tab">Content Type of Tweets</a>
+                <a href="#scroll-tab-7" class="mdl-layout__tab">About and README</a>
             </div>
         </header>
         <main class="mdl-layout__content">
-            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-2">
-                <div class="page-content" id="tab_location"></div>
+            <section class="mdl-layout__tab-panel is-active" style="display: flex" id="scroll-tab-2">
+                <div class="page-content" id="tab_location" style="align-items: stretch"></div>
             </section>
             <section class="mdl-layout__tab-panel" id="scroll-tab-3">
                 <div class="page-content">
@@ -94,7 +97,16 @@
                     <canvas id="mime_type" width="100" height="100"></canvas>
                 </div>
             </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-7">
+                <div class="page-content" id="mime_type_tab">
+                    <canvas id="mime_type" width="100" height="100"></canvas>
+                </div>
+            </section>
         </main>
+        <div id="toast" class="mdl-js-snackbar mdl-snackbar">
+            <div class="mdl-snackbar__text"></div>
+            <button class="mdl-snackbar__action" type="button"></button>
+        </div>
     </div>
     <script src="../static/js/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
