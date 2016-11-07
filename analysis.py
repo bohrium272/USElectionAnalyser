@@ -13,6 +13,10 @@ global tweets_df
 tweets_df = make_dataframe(tweets)
 
 def top_10_hashtags():
+    """
+        Get top 10 Hashtags from a list of all Hashtags.
+        Used inbuilt Python Counter to get top 10 hashtags
+    """
     hashtags = tweets_df['Hashtags']
     if not hashtags.empty and len(hashtags) > 0:
         all_hashtags = list() 
@@ -27,38 +31,25 @@ def top_10_hashtags():
 
 def get_locations():
     """
-    Returns a dictionary of Number of tweets from each country
+        Returns a dictionary of Number of tweets from each country
     """
     countries = tweets_df['Country']
     d = dict(Counter(countries))
-    print d
     return d
 
-def popularity():
-    """
-    Popularity Metric Used:
-    *   No. of tweets mentioning only one of the candidates Trump or Hillary have been favorited
-    *   
-    """
-    clinton_count = 0
-    trump_count = 0
-    popularity_df = tweets_df[['User Mentions', 'Favorite Count']]
-    for i in xrange(popularity_df.shape[0]):
-        temp = dict(popularity_df.iloc[i])
-        mentions = temp['User Mentions']
-        if mentions != None and len(mentions) > 0:    
-            fav_count = temp['Favorite Count']
-            if 'Hillary Clinton' in mentions and 'Donald J. Trump' not in mentions:
-                clinton_count += fav_count
-            elif 'Donald J. Trump' in mentions and 'Hillary Clinton' not in mentions:
-                trump_count += fav_count
-    return {'Trump': trump_count, 'Clinton': clinton_count}
-
 def dist_original_vs_retweet():
+    """
+        Number of original vs retweets.
+        Using inbuilt Python Counter
+    """
     type = list(tweets_df['Type'])
     return dict(Counter(type))
 
 def dist_fav_on_original_tweets():
+    """
+        Distibution of favorites on original tweets.
+        Calculated number of favorites on tweets by Hillary, Donald and others.
+    """
     clinton_original_count = 0
     trump_original_count = 0
     others_original_count = 0
@@ -67,15 +58,27 @@ def dist_fav_on_original_tweets():
         temp = dict(temp_df.iloc[i])
         if temp['Type'] == 'original':
             if temp['Handle'] == 'realDonaldTrump':
-                trump_original_count += 1
+                trump_original_count += temp['Favorite Count']
             elif temp['Handle'] == 'HillaryClinton':
-                clinton_original_count += 1
+                clinton_original_count += temp['Favorite Count']
             else: 
-                others_original_count += 1
+                others_original_count += temp['Favorite Count']
     return {'Hillary': clinton_original_count, 'Trump': trump_original_count, 'Others': others_original_count}
 
 def mime_type_dist():
+    """
+        Number of text and text + image tweets
+    """
     return dict(Counter(list(tweets_df['Mime Type'])))
 
+def database_count():
+    """
+        Number of tweets in Database
+    """
+    return {'Count': tweets_collection.count()}
+
 def refresh_data():
+    """
+        Refetch tweets from the database
+    """
     tweets_df = make_dataframe(fetch_tweets_from_db(tweets_collection))

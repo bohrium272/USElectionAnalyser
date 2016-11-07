@@ -1,17 +1,32 @@
 $(document).ready(function() {
+    
+    /**
+     * Function to Show the Loading Spinner
+     */
     var showSpinner = function() {
         document.getElementById('spinner').style.display = 'block';
     }
+
+    /**
+     * Function to Hide the Loading Spinner
+     */
     var hideSpinner =  function() {
         document.getElementById('spinner').style.display = 'none';
     }
+    /**
+     * Function to Show a Transient Snackbar Message
+     */
     var showSnackBar = function() {
         var snackbarContainer = document.querySelector('#toast');
         snackbarContainer.MaterialSnackbar.showSnackbar({message: 'Failed to update due to a server error'});
     }
 
+    //  Hide the Spinner
     hideSpinner();
 
+    /**
+     * Getting Location Data
+     */
     $.get('/locations', function(data){
         console.log(data);
         google.charts.load('upcoming', {'packages': ['geochart']});
@@ -27,6 +42,9 @@ $(document).ready(function() {
         });    
     });
 
+    /**
+     * Getting Top 10 Hashtags
+     */
     $.get('/top_10_hashtags', function(data) {
         var chart_data = [];
         var keys = Object.keys(data)
@@ -59,6 +77,10 @@ $(document).ready(function() {
         });
     });
 
+
+    /**
+     * Getting Distibution of Favorites on Original Tweets
+     */
     $.get('/dist/original_fav', function(data) {
         var chart_data = [];
         var keys = Object.keys(data)
@@ -89,6 +111,10 @@ $(document).ready(function() {
         });
     });
 
+
+    /**
+     * Getting Distribution of Original Tweets vs Retweets
+     */
     $.get('/dist/original_retweet', function(data) {
         var chart_data = [];
         var keys = Object.keys(data)
@@ -119,6 +145,9 @@ $(document).ready(function() {
         });
     });
 
+    /**
+     * Geting Content Type of Tweets
+     */
     $.get('/dist/mime_type', function(data) {
         var chart_data = [];
         var keys = Object.keys(data)
@@ -128,7 +157,7 @@ $(document).ready(function() {
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: Object.keys(data),
+                labels: ['Text', 'Text + Image'],
                 datasets: [{
                         label: 'Frequency',
                         data: chart_data,
@@ -149,6 +178,16 @@ $(document).ready(function() {
         });
     });
 
+    /**
+     * Get number of Tweets Processed
+     */
+    $.get('/number_of_tweets', function(data) {
+        var count = data['Count'];
+        document.getElementById('count_label').innerHTML = count;
+    });
+    /**
+     * Refreshing the Data
+     */
     document.getElementById('refresh_button').onclick = function(event) {
         document.getElementById('refresh_button').disabled = 'disabled';
         showSpinner();
